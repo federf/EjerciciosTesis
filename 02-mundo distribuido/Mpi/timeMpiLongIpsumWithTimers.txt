@@ -1,0 +1,170 @@
+Cantidad de repeticiones del caracter 'a' : 2118195
+
+Tiempo hijo : 0.319906
+Tiempo padre : 0.364407
+
+ Performance counter stats for 'sh -c cat longloremipsum.txt | mpirun -np 2 char_occurrences a >> timeMpiLongIpsumWithTimers.txt':
+
+       1227.132705      task-clock (msec)         #    2.144 CPUs utilized          
+     3,989,796,603      instructions                                                
+         7,583,450      cache-references          #    6.180 M/sec                  
+           488,926      cache-misses              #    6.447 % of all cache refs    
+
+       0.572312481 seconds time elapsed
+
+real 0.63
+user 0.75
+sys 0.57
+Cantidad de repeticiones del caracter 'a' : 2118195
+
+Tiempo hijo : 0.349356
+Tiempo padre : 0.380807
+
+ Performance counter stats for 'sh -c cat longloremipsum.txt | mpirun -np 2 char_occurrences a >> timeMpiLongIpsumWithTimers.txt':
+
+       1277.615101      task-clock (msec)         #    2.081 CPUs utilized          
+     4,256,792,115      instructions                                                
+         8,240,624      cache-references          #    6.450 M/sec                  
+           608,578      cache-misses              #    7.385 % of all cache refs    
+
+       0.613996221 seconds time elapsed
+
+real 0.67
+user 0.79
+sys 0.58
+Cantidad de repeticiones del caracter 'a' : 2118195
+
+Tiempo hijo : 0.349279
+Tiempo padre : 0.379063
+
+ Performance counter stats for 'sh -c cat longloremipsum.txt | mpirun -np 2 char_occurrences a >> timeMpiLongIpsumWithTimers.txt':
+
+       1251.129238      task-clock (msec)         #    2.095 CPUs utilized          
+     4,318,456,340      instructions                                                
+         7,629,314      cache-references          #    6.098 M/sec                  
+           486,167      cache-misses              #    6.372 % of all cache refs    
+
+       0.597129505 seconds time elapsed
+
+real 0.64
+user 0.78
+sys 0.56
+Cantidad de repeticiones del caracter 'a' : 2118195
+
+Tiempo hijo : 0.375361
+Tiempo padre : 0.399851
+
+ Performance counter stats for 'sh -c cat longloremipsum.txt | mpirun -np 2 char_occurrences a >> timeMpiLongIpsumWithTimers.txt':
+
+       1303.196841      task-clock (msec)         #    2.118 CPUs utilized          
+     4,570,563,085      instructions                                                
+         7,844,748      cache-references          #    6.020 M/sec                  
+           529,807      cache-misses              #    6.754 % of all cache refs    
+
+       0.615173192 seconds time elapsed
+
+real 0.65
+user 0.84
+sys 0.55
+Cantidad de repeticiones del caracter 'a' : 2118195
+
+Tiempo hijo : 0.391609
+Tiempo padre : 0.410424
+
+ Performance counter stats for 'sh -c cat longloremipsum.txt | mpirun -np 2 char_occurrences a >> timeMpiLongIpsumWithTimers.txt':
+
+       1340.050544      task-clock (msec)         #    2.115 CPUs utilized          
+     4,760,154,244      instructions                                                
+         7,759,531      cache-references          #    5.790 M/sec                  
+           505,786      cache-misses              #    6.518 % of all cache refs    
+
+       0.633557719 seconds time elapsed
+
+real 0.67
+user 0.91
+sys 0.52
+Cantidad de repeticiones del caracter 'a' : 2118195
+
+Tiempo hijo : 0.341470
+Tiempo padre : 0.375677
+
+ Performance counter stats for 'sh -c cat longloremipsum.txt | mpirun -np 2 char_occurrences a >> timeMpiLongIpsumWithTimers.txt':
+
+       1239.630395      task-clock (msec)         #    2.105 CPUs utilized          
+     4,214,285,639      instructions                                                
+         7,474,573      cache-references          #    6.030 M/sec                  
+           571,858      cache-misses              #    7.651 % of all cache refs    
+
+       0.589025152 seconds time elapsed
+
+real 0.63
+user 0.76
+sys 0.56
+Tiempo padre : 0.371155
+Cantidad de repeticiones del caracter 'a' : 2118195
+
+Tiempo hijo : 0.331229
+
+ Performance counter stats for 'sh -c cat longloremipsum.txt | mpirun -np 2 char_occurrences a >> timeMpiLongIpsumWithTimers.txt':
+
+       1236.897719      task-clock (msec)         #    2.123 CPUs utilized          
+     4,067,903,761      instructions                                                
+         7,959,221      cache-references          #    6.435 M/sec                  
+           493,564      cache-misses              #    6.201 % of all cache refs    
+
+       0.582593068 seconds time elapsed
+
+real 0.62
+user 0.80
+sys 0.52
+Cantidad de repeticiones del caracter 'a' : 2118195
+
+Tiempo hijo : 0.337199
+Tiempo padre : 0.378695
+
+ Performance counter stats for 'sh -c cat longloremipsum.txt | mpirun -np 2 char_occurrences a >> timeMpiLongIpsumWithTimers.txt':
+
+       1255.769570      task-clock (msec)         #    2.098 CPUs utilized          
+     4,158,092,028      instructions                                                
+         7,362,839      cache-references          #    5.863 M/sec                  
+           525,057      cache-misses              #    7.131 % of all cache refs    
+
+       0.598469441 seconds time elapsed
+
+real 0.64
+user 0.90
+sys 0.45
+Cantidad de repeticiones del caracter 'a' : 2118195
+
+Tiempo hijo : 0.371509
+Tiempo padre : 0.399945
+
+ Performance counter stats for 'sh -c cat longloremipsum.txt | mpirun -np 2 char_occurrences a >> timeMpiLongIpsumWithTimers.txt':
+
+       1311.016567      task-clock (msec)         #    2.108 CPUs utilized          
+     4,481,079,186      instructions                                                
+         8,784,688      cache-references          #    6.701 M/sec                  
+           501,013      cache-misses              #    5.703 % of all cache refs    
+
+       0.621945444 seconds time elapsed
+
+real 0.66
+user 0.92
+sys 0.50
+Cantidad de repeticiones del caracter 'a' : 2118195
+
+Tiempo hijo : 0.353203
+Tiempo padre : 0.386406
+
+ Performance counter stats for 'sh -c cat longloremipsum.txt | mpirun -np 2 char_occurrences a >> timeMpiLongIpsumWithTimers.txt':
+
+       1269.991997      task-clock (msec)         #    2.098 CPUs utilized          
+     4,291,287,936      instructions                                                
+         7,224,267      cache-references          #    5.688 M/sec                  
+           518,535      cache-misses              #    7.178 % of all cache refs    
+
+       0.605395673 seconds time elapsed
+
+real 0.65
+user 0.83
+sys 0.53
