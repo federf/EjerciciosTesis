@@ -1,0 +1,170 @@
+Cantidad de repeticiones del caracter 'a' : 271333
+
+Tiempo hijo : 0.069208
+Tiempo padre : 0.076372
+
+ Performance counter stats for 'sh -c cat longFile.txt | mpirun -np 2 char_occurrences a >> timeMpiLongFileWithTimers.txt':
+
+        318.968690      task-clock (msec)         #    1.668 CPUs utilized          
+       955,496,926      instructions                                                
+         2,875,786      cache-references          #    9.016 M/sec                  
+           347,025      cache-misses              #   12.067 % of all cache refs    
+
+       0.191255074 seconds time elapsed
+
+real 0.24
+user 0.23
+sys 0.12
+Cantidad de repeticiones del caracter 'a' : 271333
+
+Tiempo hijo : 0.078813
+Tiempo padre : 0.086768
+
+ Performance counter stats for 'sh -c cat longFile.txt | mpirun -np 2 char_occurrences a >> timeMpiLongFileWithTimers.txt':
+
+        342.780867      task-clock (msec)         #    1.762 CPUs utilized          
+       977,279,540      instructions                                                
+         2,991,405      cache-references          #    8.727 M/sec                  
+           366,544      cache-misses              #   12.253 % of all cache refs    
+
+       0.194533328 seconds time elapsed
+
+real 0.26
+user 0.21
+sys 0.18
+Cantidad de repeticiones del caracter 'a' : 271333
+
+Tiempo hijo : 0.068309
+Tiempo padre : 0.076622
+
+ Performance counter stats for 'sh -c cat longFile.txt | mpirun -np 2 char_occurrences a >> timeMpiLongFileWithTimers.txt':
+
+        308.574143      task-clock (msec)         #    1.891 CPUs utilized          
+       955,877,277      instructions                                                
+         2,838,062      cache-references          #    9.197 M/sec                  
+           358,384      cache-misses              #   12.628 % of all cache refs    
+
+       0.163195046 seconds time elapsed
+
+real 0.20
+user 0.18
+sys 0.17
+Cantidad de repeticiones del caracter 'a' : 271333
+
+Tiempo hijo : 0.074171
+Tiempo padre : 0.079942
+
+ Performance counter stats for 'sh -c cat longFile.txt | mpirun -np 2 char_occurrences a >> timeMpiLongFileWithTimers.txt':
+
+        329.319528      task-clock (msec)         #    1.898 CPUs utilized          
+     1,003,471,656      instructions                                                
+         2,958,903      cache-references          #    8.985 M/sec                  
+           366,821      cache-misses              #   12.397 % of all cache refs    
+
+       0.173511946 seconds time elapsed
+
+real 0.22
+user 0.17
+sys 0.19
+Cantidad de repeticiones del caracter 'a' : 271333
+
+Tiempo hijo : 0.065995
+Tiempo padre : 0.080939
+
+ Performance counter stats for 'sh -c cat longFile.txt | mpirun -np 2 char_occurrences a >> timeMpiLongFileWithTimers.txt':
+
+        321.404144      task-clock (msec)         #    1.900 CPUs utilized          
+       847,304,627      instructions                                                
+         2,953,220      cache-references          #    9.188 M/sec                  
+           371,998      cache-misses              #   12.596 % of all cache refs    
+
+       0.169160405 seconds time elapsed
+
+real 0.21
+user 0.19
+sys 0.18
+Cantidad de repeticiones del caracter 'a' : 271333
+
+Tiempo hijo : 0.078032
+Tiempo padre : 0.083448
+
+ Performance counter stats for 'sh -c cat longFile.txt | mpirun -np 2 char_occurrences a >> timeMpiLongFileWithTimers.txt':
+
+        336.068906      task-clock (msec)         #    1.916 CPUs utilized          
+       985,736,783      instructions                                                
+         2,873,745      cache-references          #    8.551 M/sec                  
+           340,828      cache-misses              #   11.860 % of all cache refs    
+
+       0.175361294 seconds time elapsed
+
+real 0.23
+user 0.18
+sys 0.20
+Cantidad de repeticiones del caracter 'a' : 271333
+
+Tiempo hijo : 0.085988
+Tiempo padre : 0.090516
+
+ Performance counter stats for 'sh -c cat longFile.txt | mpirun -np 2 char_occurrences a >> timeMpiLongFileWithTimers.txt':
+
+        357.666361      task-clock (msec)         #    1.912 CPUs utilized          
+     1,052,013,742      instructions                                                
+         3,033,053      cache-references          #    8.480 M/sec                  
+           421,876      cache-misses              #   13.909 % of all cache refs    
+
+       0.187018675 seconds time elapsed
+
+real 0.23
+user 0.21
+sys 0.19
+Cantidad de repeticiones del caracter 'a' : 271333
+
+Tiempo hijo : 0.076969
+Tiempo padre : 0.083380
+
+ Performance counter stats for 'sh -c cat longFile.txt | mpirun -np 2 char_occurrences a >> timeMpiLongFileWithTimers.txt':
+
+        332.512298      task-clock (msec)         #    1.927 CPUs utilized          
+       994,561,522      instructions                                                
+         2,947,386      cache-references          #    8.864 M/sec                  
+           385,025      cache-misses              #   13.063 % of all cache refs    
+
+       0.172576328 seconds time elapsed
+
+real 0.21
+user 0.20
+sys 0.18
+Cantidad de repeticiones del caracter 'a' : 271333
+
+Tiempo hijo : 0.072042
+Tiempo padre : 0.078644
+
+ Performance counter stats for 'sh -c cat longFile.txt | mpirun -np 2 char_occurrences a >> timeMpiLongFileWithTimers.txt':
+
+        318.654997      task-clock (msec)         #    1.916 CPUs utilized          
+       952,716,780      instructions                                                
+         2,867,851      cache-references          #    9.000 M/sec                  
+           336,361      cache-misses              #   11.729 % of all cache refs    
+
+       0.166276328 seconds time elapsed
+
+real 0.21
+user 0.16
+sys 0.21
+Cantidad de repeticiones del caracter 'a' : 271333
+
+Tiempo hijo : 0.074132
+Tiempo padre : 0.082614
+
+ Performance counter stats for 'sh -c cat longFile.txt | mpirun -np 2 char_occurrences a >> timeMpiLongFileWithTimers.txt':
+
+        334.747134      task-clock (msec)         #    1.900 CPUs utilized          
+       945,673,357      instructions                                                
+         2,920,349      cache-references          #    8.724 M/sec                  
+           345,827      cache-misses              #   11.842 % of all cache refs    
+
+       0.176198069 seconds time elapsed
+
+real 0.21
+user 0.21
+sys 0.17

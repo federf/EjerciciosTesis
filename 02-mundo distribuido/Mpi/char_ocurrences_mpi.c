@@ -8,6 +8,13 @@
 
 // (time -p perf stat -e task-clock,instructions,cache-references,cache-misses sh -c 'cat 124mbloremipsum.txt | mpirun -np 2 char_occurrences a') 2>> timeMpi124mbLoremIpsum.txt
 
+//SALVAR TODO OUTPUT A UN ARCHIVO
+// (time -p perf stat -e task-clock,instructions,cache-references,cache-misses sh -c 'cat longFile.txt | mpirun -np 2 char_occurrences a >> timeMpiLongFileWithTimers.txt') 2>> timeMpiLongFileWithTimers.txt
+
+//(time -p perf stat -e task-clock,instructions,cache-references,cache-misses sh -c 'cat longloremipsum.txt | mpirun -np 2 char_occurrences a >> timeMpiLongIpsumWithTimers.txt') 2>> timeMpiLongIpsumWithTimers.txt
+
+//(time -p perf stat -e task-clock,instructions,cache-references,cache-misses sh -c 'cat 124mbloremipsum.txt | mpirun -np 2 char_occurrences a >> timeMpi124mbLoremIpsumWithTimers.txt') 2>> timeMpi124mbLoremIpsumWithTimers.txt
+
 // fichero mpi
 #include <mpi.h>
 #include <stdio.h>
