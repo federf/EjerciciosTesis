@@ -26,3 +26,7 @@ longFile.txt
 longloremipsum.txt
 shortFile.txt
 124mbloremipsum.txt
+02-mundo distribuido/Mpi/resultados/
+02-mundo distribuido/Pipes/resultados/
+02-mundo distribuido/Mpi/char_ocurrences
+02-mundo distribuido/Pipes/divided_countchar
