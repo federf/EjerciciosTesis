@@ -1,0 +1,142 @@
+
+ Performance counter stats for 'sh -c cat longFile.txt | mpirun -np 2 char_occurrences a':
+
+        175.737311      task-clock (msec)         #    1.455 CPUs utilized          
+       670,156,486      instructions                                                
+         2,705,887      cache-references          #   15.397 M/sec                  
+           352,920      cache-misses              #   13.043 % of all cache refs    
+
+       0.120777413 seconds time elapsed
+
+real 0.19
+user 0.16
+sys 0.06
+
+ Performance counter stats for 'sh -c cat longFile.txt | mpirun -np 2 char_occurrences a':
+
+        168.933808      task-clock (msec)         #    1.541 CPUs utilized          
+       657,006,007      instructions                                                
+         2,852,981      cache-references          #   16.888 M/sec                  
+           340,802      cache-misses              #   11.945 % of all cache refs    
+
+       0.109595074 seconds time elapsed
+
+real 0.17
+user 0.14
+sys 0.07
+
+ Performance counter stats for 'sh -c cat longFile.txt | mpirun -np 2 char_occurrences a':
+
+        167.157336      task-clock (msec)         #    1.812 CPUs utilized          
+       680,750,793      instructions                                                
+         2,721,472      cache-references          #   16.281 M/sec                  
+           343,039      cache-misses              #   12.605 % of all cache refs    
+
+       0.092262541 seconds time elapsed
+
+real 0.13
+user 0.15
+sys 0.05
+
+ Performance counter stats for 'sh -c cat longFile.txt | mpirun -np 2 char_occurrences a':
+
+        171.902631      task-clock (msec)         #    1.771 CPUs utilized          
+       650,320,195      instructions                                                
+         2,730,037      cache-references          #   15.881 M/sec                  
+           333,209      cache-misses              #   12.205 % of all cache refs    
+
+       0.097054914 seconds time elapsed
+
+real 0.15
+user 0.15
+sys 0.06
+
+ Performance counter stats for 'sh -c cat longFile.txt | mpirun -np 2 char_occurrences a':
+
+        168.134570      task-clock (msec)         #    1.813 CPUs utilized          
+       657,306,790      instructions                                                
+         2,718,789      cache-references          #   16.170 M/sec                  
+           355,785      cache-misses              #   13.086 % of all cache refs    
+
+       0.092719844 seconds time elapsed
+
+real 0.13
+user 0.14
+sys 0.06
+
+ Performance counter stats for 'sh -c cat longFile.txt | mpirun -np 2 char_occurrences a':
+
+        174.795849      task-clock (msec)         #    1.817 CPUs utilized          
+       619,586,929      instructions                                                
+         2,790,722      cache-references          #   15.966 M/sec                  
+           341,957      cache-misses              #   12.253 % of all cache refs    
+
+       0.096198120 seconds time elapsed
+
+real 0.16
+user 0.14
+sys 0.08
+
+ Performance counter stats for 'sh -c cat longFile.txt | mpirun -np 2 char_occurrences a':
+
+        163.461367      task-clock (msec)         #    1.830 CPUs utilized          
+       637,126,706      instructions                                                
+         2,717,791      cache-references          #   16.627 M/sec                  
+           333,975      cache-misses              #   12.288 % of all cache refs    
+
+       0.089343941 seconds time elapsed
+
+real 0.14
+user 0.13
+sys 0.08
+
+ Performance counter stats for 'sh -c cat longFile.txt | mpirun -np 2 char_occurrences a':
+
+        166.222981      task-clock (msec)         #    1.824 CPUs utilized          
+       637,823,237      instructions                                                
+         2,701,308      cache-references          #   16.251 M/sec                  
+           332,933      cache-misses              #   12.325 % of all cache refs    
+
+       0.091121892 seconds time elapsed
+
+real 0.13
+user 0.13
+sys 0.08
+
+ Performance counter stats for 'sh -c cat longFile.txt | mpirun -np 2 char_occurrences a':
+
+        175.191001      task-clock (msec)         #    1.840 CPUs utilized          
+       659,703,337      instructions                                                
+         2,780,059      cache-references          #   15.869 M/sec                  
+           376,661      cache-misses              #   13.549 % of all cache refs    
+
+       0.095192862 seconds time elapsed
+
+real 0.13
+user 0.12
+sys 0.09
+
+ Performance counter stats for 'sh -c cat longFile.txt | mpirun -np 2 char_occurrences a':
+
+        170.999439      task-clock (msec)         #    1.828 CPUs utilized          
+       648,789,962      instructions                                                
+         2,795,531      cache-references          #   16.348 M/sec                  
+           350,451      cache-misses              #   12.536 % of all cache refs    
+
+       0.093526729 seconds time elapsed
+
+real 0.13
+user 0.14
+sys 0.07
+WARNING: perf not found for kernel 4.15.0-36
+
+  You may need to install the following packages for this specific kernel:
+    linux-tools-4.15.0-36-generic
+    linux-cloud-tools-4.15.0-36-generic
+
+  You may also want to install one of the following packages to keep up to date:
+    linux-tools-generic
+    linux-cloud-tools-generic
+real 0.10
+user 0.04
+sys 0.00

@@ -1,0 +1,5 @@
+lanzar java mission control:
+
+ejemploLinealChico
+
+	java -XX:+UnlockCommercialFeatures -XX:+FlightRecorder -XX:StartFlightRecording=duration=25s,filename=ejemploLinealChico.jfr ejemploLinealChico

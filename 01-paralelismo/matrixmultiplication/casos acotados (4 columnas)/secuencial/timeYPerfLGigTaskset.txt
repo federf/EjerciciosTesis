@@ -1,0 +1,130 @@
+
+ Performance counter stats for 'taskset -c 1 java ejemploLinealGigante':
+
+       2914,850296 task-clock (msec)         #    0,808 CPUs utilized          
+    18.522.036.925 instructions             
+        23.695.822 cache-references          #    8,129 M/sec                  
+         9.707.506 cache-misses              #   40,967 % of all cache refs    
+
+       3,605467283 seconds time elapsed
+
+real 3.60
+user 2.81
+sys 0.10
+
+ Performance counter stats for 'taskset -c 1 java ejemploLinealGigante':
+
+       3381,443761 task-clock (msec)         #    0,979 CPUs utilized          
+    18.526.121.565 instructions             
+        25.563.732 cache-references          #    7,560 M/sec                  
+        10.658.989 cache-misses              #   41,696 % of all cache refs    
+
+       3,454928899 seconds time elapsed
+
+real 3.46
+user 3.29
+sys 0.08
+
+ Performance counter stats for 'taskset -c 1 java ejemploLinealGigante':
+
+       3739,842317 task-clock (msec)         #    0,993 CPUs utilized          
+    18.529.474.572 instructions             
+        27.997.336 cache-references          #    7,486 M/sec                  
+        13.022.748 cache-misses              #   46,514 % of all cache refs    
+
+       3,764472948 seconds time elapsed
+
+real 3.76
+user 3.61
+sys 0.13
+
+ Performance counter stats for 'taskset -c 1 java ejemploLinealGigante':
+
+       2877,123131 task-clock (msec)         #    0,531 CPUs utilized          
+    19.096.706.749 instructions             
+        26.463.138 cache-references          #    9,198 M/sec                  
+        10.140.300 cache-misses              #   38,319 % of all cache refs    
+
+       5,422133705 seconds time elapsed
+
+real 5.42
+user 2.75
+sys 0.12
+
+ Performance counter stats for 'taskset -c 1 java ejemploLinealGigante':
+
+       2322,739608 task-clock (msec)         #    0,994 CPUs utilized          
+    19.088.355.467 instructions             
+        22.278.214 cache-references          #    9,591 M/sec                  
+         7.925.878 cache-misses              #   35,577 % of all cache refs    
+
+       2,335609817 seconds time elapsed
+
+real 2.34
+user 2.23
+sys 0.09
+
+ Performance counter stats for 'taskset -c 1 java ejemploLinealGigante':
+
+       3464,534642 task-clock (msec)         #    0,420 CPUs utilized          
+    19.098.955.385 instructions             
+        25.703.918 cache-references          #    7,419 M/sec                  
+        10.877.591 cache-misses              #   42,319 % of all cache refs    
+
+       8,241263799 seconds time elapsed
+
+real 8.24
+user 3.32
+sys 0.14
+
+ Performance counter stats for 'taskset -c 1 java ejemploLinealGigante':
+
+       2277,690674 task-clock (msec)         #    0,996 CPUs utilized          
+    19.089.224.014 instructions             
+        21.463.324 cache-references          #    9,423 M/sec                  
+         7.308.559 cache-misses              #   34,051 % of all cache refs    
+
+       2,287114693 seconds time elapsed
+
+real 2.29
+user 2.20
+sys 0.07
+
+ Performance counter stats for 'taskset -c 1 java ejemploLinealGigante':
+
+       2857,395757 task-clock (msec)         #    0,995 CPUs utilized          
+    18.518.172.607 instructions             
+        22.119.569 cache-references          #    7,741 M/sec                  
+         8.652.021 cache-misses              #   39,115 % of all cache refs    
+
+       2,872907293 seconds time elapsed
+
+real 2.87
+user 2.74
+sys 0.11
+
+ Performance counter stats for 'taskset -c 1 java ejemploLinealGigante':
+
+       3154,220075 task-clock (msec)         #    0,994 CPUs utilized          
+    19.103.902.263 instructions             
+        26.333.616 cache-references          #    8,349 M/sec                  
+        10.728.332 cache-misses              #   40,740 % of all cache refs    
+
+       3,171978004 seconds time elapsed
+
+real 3.17
+user 3.04
+sys 0.11
+
+ Performance counter stats for 'taskset -c 1 java ejemploLinealGigante':
+
+       3061,617829 task-clock (msec)         #    0,994 CPUs utilized          
+    19.098.204.868 instructions             
+        23.084.391 cache-references          #    7,540 M/sec                  
+         8.402.883 cache-misses              #   36,401 % of all cache refs    
+
+       3,078925101 seconds time elapsed
+
+real 3.08
+user 2.95
+sys 0.11

@@ -1,0 +1,130 @@
+
+ Performance counter stats for 'taskset 1 java ejemploLinealGiganteSeno':
+
+      26265,189372 task-clock (msec)         #    1,000 CPUs utilized          
+    67.111.655.696 instructions             
+        24.709.628 cache-references          #    0,941 M/sec                  
+         8.447.498 cache-misses              #   34,187 % of all cache refs    
+
+      26,256226192 seconds time elapsed
+
+real 26.26
+user 26.17
+sys 0.10
+
+ Performance counter stats for 'taskset 1 java ejemploLinealGiganteSeno':
+
+      25993,545109 task-clock (msec)         #    1,000 CPUs utilized          
+    67.109.674.491 instructions             
+        24.151.623 cache-references          #    0,929 M/sec                  
+         8.193.944 cache-misses              #   33,927 % of all cache refs    
+
+      25,981426375 seconds time elapsed
+
+real 25.98
+user 25.92
+sys 0.07
+
+ Performance counter stats for 'taskset 1 java ejemploLinealGiganteSeno':
+
+      26011,569847 task-clock (msec)         #    1,000 CPUs utilized          
+    67.110.673.504 instructions             
+        24.116.489 cache-references          #    0,927 M/sec                  
+         8.209.186 cache-misses              #   34,040 % of all cache refs    
+
+      25,999472158 seconds time elapsed
+
+real 26.00
+user 25.91
+sys 0.10
+
+ Performance counter stats for 'taskset 1 java ejemploLinealGiganteSeno':
+
+      26004,248893 task-clock (msec)         #    1,000 CPUs utilized          
+    67.108.395.235 instructions             
+        24.145.923 cache-references          #    0,929 M/sec                  
+         8.255.866 cache-misses              #   34,192 % of all cache refs    
+
+      25,991278563 seconds time elapsed
+
+real 25.99
+user 25.91
+sys 0.09
+
+ Performance counter stats for 'taskset 1 java ejemploLinealGiganteSeno':
+
+      26024,510016 task-clock (msec)         #    1,000 CPUs utilized          
+    67.108.058.521 instructions             
+        24.206.389 cache-references          #    0,930 M/sec                  
+         8.332.626 cache-misses              #   34,423 % of all cache refs    
+
+      26,011789803 seconds time elapsed
+
+real 26.01
+user 25.95
+sys 0.07
+
+ Performance counter stats for 'taskset 1 java ejemploLinealGiganteSeno':
+
+      25990,153997 task-clock (msec)         #    1,000 CPUs utilized          
+    67.108.567.145 instructions             
+        24.195.004 cache-references          #    0,931 M/sec                  
+         8.350.509 cache-misses              #   34,513 % of all cache refs    
+
+      25,977194369 seconds time elapsed
+
+real 25.98
+user 25.86
+sys 0.12
+
+ Performance counter stats for 'taskset 1 java ejemploLinealGiganteSeno':
+
+      25993,098625 task-clock (msec)         #    1,000 CPUs utilized          
+    67.108.297.327 instructions             
+        24.131.234 cache-references          #    0,928 M/sec                  
+         8.305.567 cache-misses              #   34,418 % of all cache refs    
+
+      25,980367831 seconds time elapsed
+
+real 25.98
+user 25.90
+sys 0.08
+
+ Performance counter stats for 'taskset 1 java ejemploLinealGiganteSeno':
+
+      26024,757024 task-clock (msec)         #    1,000 CPUs utilized          
+    67.108.496.860 instructions             
+        24.307.935 cache-references          #    0,934 M/sec                  
+         8.386.594 cache-misses              #   34,501 % of all cache refs    
+
+      26,012305306 seconds time elapsed
+
+real 26.01
+user 25.93
+sys 0.09
+
+ Performance counter stats for 'taskset 1 java ejemploLinealGiganteSeno':
+
+      26000,717173 task-clock (msec)         #    1,000 CPUs utilized          
+    67.111.698.175 instructions             
+        24.379.198 cache-references          #    0,938 M/sec                  
+         8.313.589 cache-misses              #   34,101 % of all cache refs    
+
+      25,988012169 seconds time elapsed
+
+real 25.99
+user 25.92
+sys 0.08
+
+ Performance counter stats for 'taskset 1 java ejemploLinealGiganteSeno':
+
+      26200,145001 task-clock (msec)         #    1,000 CPUs utilized          
+    67.111.725.929 instructions             
+        24.265.843 cache-references          #    0,926 M/sec                  
+         8.409.028 cache-misses              #   34,654 % of all cache refs    
+
+      26,188584553 seconds time elapsed
+
+real 26.19
+user 26.09
+sys 0.11

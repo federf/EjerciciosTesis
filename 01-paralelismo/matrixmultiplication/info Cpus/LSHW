@@ -1,0 +1,405 @@
+fede-max-g0101
+    descripción: Portátil
+    producto: MAX G0101 (Not Applicable)
+    fabricante: BANGHO
+    versión: MAX G0101
+    serie: 0900420901001006
+    anchura: 64 bits
+    capacidades: smbios-2.7 dmi-2.7 vsyscall32
+    configuración: administrator_password=disabled boot=normal chassis=laptop family=Not Applicable frontpanel_password=disabled keyboard_password=disabled power-on_password=disabled sku=Not Applicable uuid=80FA5B1F-6209-0000-0000-000000000000
+  *-core
+       descripción: Placa base
+       producto: MAX G0101
+       fabricante: BANGHO
+       id físico: 0
+       versión: Not Applicable
+       serie: 0900420901001006
+       ranura: Not Applicable
+     *-firmware
+          descripción: BIOS
+          fabricante: American Megatrends Inc.
+          id físico: 0
+          versión: 4.6.5
+          date: 08/08/2014
+          tamaño: 64KiB
+          capacidad: 4032KiB
+          capacidades: pci upgrade shadowing cdboot bootselect edd int5printscreen int9keyboard int17printer acpi usb biosbootspecification uefi
+     *-cpu
+          descripción: CPU
+          producto: Intel(R) Core(TM) i7-4702MQ CPU @ 2.20GHz
+          fabricante: Intel Corp.
+          id físico: 14
+          información del bus: cpu@0
+          versión: Intel(R) Core(TM) i7-4702MQ CPU @ 2.20GHz
+          ranura: SOCKET 0
+          tamaño: 800MHz
+          capacidad: 3800MHz
+          anchura: 64 bits
+          reloj: 100MHz
+          capacidades: x86-64 fpu fpu_exception wp vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 fma cx16 xtpr pdcm pcid sse4_1 sse4_2 movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid cpufreq
+          configuración: cores=4 enabledcores=4 threads=8
+        *-cache:0
+             descripción: L2 caché
+             id físico: 15
+             ranura: CPU Internal L2
+             tamaño: 1MiB
+             capacidad: 1MiB
+             capacidades: internal write-back unified
+        *-cache:1
+             descripción: L1 caché
+             id físico: 16
+             ranura: CPU Internal L1
+             tamaño: 256KiB
+             capacidad: 256KiB
+             capacidades: internal write-back
+        *-cache:2
+             descripción: L3 caché
+             id físico: 17
+             ranura: CPU Internal L3
+             tamaño: 6MiB
+             capacidad: 6MiB
+             capacidades: internal write-back unified
+     *-memory
+          descripción: Memoria de sistema
+          id físico: 18
+          ranura: Placa de sistema o placa base
+          tamaño: 8GiB
+        *-bank:0
+             descripción: SODIMM DDR3 Síncrono 1600 MHz (0,6 ns)
+             producto: MAGNUMTECH
+             fabricante: 0000
+             id físico: 0
+             serie: 00000000
+             ranura: ChannelA-DIMM0
+             tamaño: 4GiB
+             anchura: 64 bits
+             reloj: 1600MHz (0.6ns)
+        *-bank:1
+             descripción: DIMMProject-Id-Version: lshwReport-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>POT-Creation-Date: 2009-10-08 14:02+0200PO-Revision-Date: 2012-03-14 06:38+0000Last-Translator: Paco Molinero <paco@byasl.com>Language-Team: Spanish <es@li.org>MIME-Version: 1.0Content-Type: text/plain; charset=UTF-8Content-Transfer-Encoding: 8bitX-Launchpad-Export-Date: 2016-07-20 12:06+0000X-Generator: Launchpad (build 18147) [vacío]
+             producto: [Empty]
+             fabricante: [Empty]
+             id físico: 1
+             serie: [Empty]
+             ranura: ChannelA-DIMM1
+        *-bank:2
+             descripción: SODIMM DDR3 Síncrono 1600 MHz (0,6 ns)
+             producto: MAGNUMTECH
+             fabricante: 0000
+             id físico: 2
+             serie: 00000000
+             ranura: ChannelB-DIMM0
+             tamaño: 4GiB
+             anchura: 64 bits
+             reloj: 1600MHz (0.6ns)
+        *-bank:3
+             descripción: DIMMProject-Id-Version: lshwReport-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>POT-Creation-Date: 2009-10-08 14:02+0200PO-Revision-Date: 2012-03-14 06:38+0000Last-Translator: Paco Molinero <paco@byasl.com>Language-Team: Spanish <es@li.org>MIME-Version: 1.0Content-Type: text/plain; charset=UTF-8Content-Transfer-Encoding: 8bitX-Launchpad-Export-Date: 2016-07-20 12:06+0000X-Generator: Launchpad (build 18147) [vacío]
+             producto: [Empty]
+             fabricante: [Empty]
+             id físico: 3
+             serie: [Empty]
+             ranura: ChannelB-DIMM1
+     *-pci
+          descripción: Host bridge
+          producto: Xeon E3-1200 v3/4th Gen Core Processor DRAM Controller
+          fabricante: Intel Corporation
+          id físico: 100
+          información del bus: pci@0000:00:00.0
+          versión: 06
+          anchura: 32 bits
+          reloj: 33MHz
+        *-display
+             descripción: VGA compatible controller
+             producto: 4th Gen Core Processor Integrated Graphics Controller
+             fabricante: Intel Corporation
+             id físico: 2
+             información del bus: pci@0000:00:02.0
+             versión: 06
+             anchura: 64 bits
+             reloj: 33MHz
+             capacidades: msi pm vga_controller bus_master cap_list rom
+             configuración: driver=i915 latency=0
+             recursos: irq:44 memoria:f7800000-f7bfffff memoria:e0000000-efffffff ioport:f000(size=64)
+        *-multimedia:0
+             descripción: Audio device
+             producto: Xeon E3-1200 v3/4th Gen Core Processor HD Audio Controller
+             fabricante: Intel Corporation
+             id físico: 3
+             información del bus: pci@0000:00:03.0
+             versión: 06
+             anchura: 64 bits
+             reloj: 33MHz
+             capacidades: pm msi pciexpress bus_master cap_list
+             configuración: driver=snd_hda_intel latency=0
+             recursos: irq:48 memoria:f7e14000-f7e17fff
+        *-usb:0
+             descripción: USB controller
+             producto: 8 Series/C220 Series Chipset Family USB xHCI
+             fabricante: Intel Corporation
+             id físico: 14
+             información del bus: pci@0000:00:14.0
+             versión: 05
+             anchura: 64 bits
+             reloj: 33MHz
+             capacidades: pm msi xhci bus_master cap_list
+             configuración: driver=xhci_hcd latency=0
+             recursos: irq:40 memoria:f7e00000-f7e0ffff
+        *-communication
+             descripción: Communication controller
+             producto: 8 Series/C220 Series Chipset Family MEI Controller #1
+             fabricante: Intel Corporation
+             id físico: 16
+             información del bus: pci@0000:00:16.0
+             versión: 04
+             anchura: 64 bits
+             reloj: 33MHz
+             capacidades: pm msi bus_master cap_list
+             configuración: driver=mei_me latency=0
+             recursos: irq:45 memoria:f7e1e000-f7e1e00f
+        *-usb:1
+             descripción: USB controller
+             producto: 8 Series/C220 Series Chipset Family USB EHCI #2
+             fabricante: Intel Corporation
+             id físico: 1a
+             información del bus: pci@0000:00:1a.0
+             versión: 05
+             anchura: 32 bits
+             reloj: 33MHz
+             capacidades: pm debug ehci bus_master cap_list
+             configuración: driver=ehci-pci latency=0
+             recursos: irq:16 memoria:f7e1c000-f7e1c3ff
+        *-multimedia:1
+             descripción: Audio device
+             producto: 8 Series/C220 Series Chipset High Definition Audio Controller
+             fabricante: Intel Corporation
+             id físico: 1b
+             información del bus: pci@0000:00:1b.0
+             versión: 05
+             anchura: 64 bits
+             reloj: 33MHz
+             capacidades: pm msi pciexpress bus_master cap_list
+             configuración: driver=snd_hda_intel latency=0
+             recursos: irq:47 memoria:f7e10000-f7e13fff
+        *-pci:0
+             descripción: PCI bridge
+             producto: 8 Series/C220 Series Chipset Family PCI Express Root Port #1
+             fabricante: Intel Corporation
+             id físico: 1c
+             información del bus: pci@0000:00:1c.0
+             versión: d5
+             anchura: 32 bits
+             reloj: 33MHz
+             capacidades: pci pciexpress msi pm normal_decode bus_master cap_list
+             configuración: driver=pcieport
+             recursos: irq:16 ioport:2000(size=4096) memoria:df200000-df3fffff ioport:df400000(size=2097152)
+        *-pci:1
+             descripción: PCI bridge
+             producto: 8 Series/C220 Series Chipset Family PCI Express Root Port #3
+             fabricante: Intel Corporation
+             id físico: 1c.2
+             información del bus: pci@0000:00:1c.2
+             versión: d5
+             anchura: 32 bits
+             reloj: 33MHz
+             capacidades: pci pciexpress msi pm normal_decode bus_master cap_list
+             configuración: driver=pcieport
+             recursos: irq:18 memoria:f7d00000-f7dfffff
+           *-network
+                descripción: Interfaz inalámbrica
+                producto: Wireless 3160
+                fabricante: Intel Corporation
+                id físico: 0
+                información del bus: pci@0000:02:00.0
+                nombre lógico: wlan0
+                versión: 83
+                serie: 78:0c:b8:dd:08:10
+                anchura: 64 bits
+                reloj: 33MHz
+                capacidades: pm msi pciexpress bus_master cap_list ethernet physical wireless
+                configuración: broadcast=yes driver=iwlwifi driverversion=3.13.0-37-generic firmware=22.24.8.0 ip=192.168.1.108 latency=0 link=yes multicast=yes wireless=IEEE 802.11abgn
+                recursos: irq:46 memoria:f7d00000-f7d01fff
+        *-pci:2
+             descripción: PCI bridge
+             producto: 8 Series/C220 Series Chipset Family PCI Express Root Port #4
+             fabricante: Intel Corporation
+             id físico: 1c.3
+             información del bus: pci@0000:00:1c.3
+             versión: d5
+             anchura: 32 bits
+             reloj: 33MHz
+             capacidades: pci pciexpress msi pm normal_decode bus_master cap_list
+             configuración: driver=pcieport
+             recursos: irq:19 ioport:e000(size=4096) memoria:f7c00000-f7cfffff
+           *-generic
+                descripción: Unassigned class
+                producto: Realtek Semiconductor Co., Ltd.
+                fabricante: Realtek Semiconductor Co., Ltd.
+                id físico: 0
+                información del bus: pci@0000:03:00.0
+                versión: 01
+                anchura: 32 bits
+                reloj: 33MHz
+                capacidades: pm msi pciexpress msix vpd bus_master cap_list rom
+                configuración: driver=rtsx_pci latency=0
+                recursos: irq:41 memoria:f7c15000-f7c15fff memoria:f7c00000-f7c0ffff
+           *-network
+                descripción: Ethernet interface
+                producto: RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller
+                fabricante: Realtek Semiconductor Co., Ltd.
+                id físico: 0.1
+                información del bus: pci@0000:03:00.1
+                nombre lógico: eth0
+                versión: 12
+                serie: 80:fa:5b:1f:62:09
+                tamaño: 10Mbit/s
+                capacidad: 1Gbit/s
+                anchura: 64 bits
+                reloj: 33MHz
+                capacidades: pm msi pciexpress msix vpd bus_master cap_list ethernet physical tp mii 10bt 10bt-fd 100bt 100bt-fd 1000bt 1000bt-fd autonegotiation
+                configuración: autonegotiation=on broadcast=yes driver=r8169 driverversion=2.3LK-NAPI duplex=half firmware=rtl8411-2_0.0.1 07/08/13 latency=0 link=no multicast=yes port=MII speed=10Mbit/s
+                recursos: irq:43 ioport:e000(size=256) memoria:f7c14000-f7c14fff memoria:f7c10000-f7c13fff
+        *-usb:2
+             descripción: USB controller
+             producto: 8 Series/C220 Series Chipset Family USB EHCI #1
+             fabricante: Intel Corporation
+             id físico: 1d
+             información del bus: pci@0000:00:1d.0
+             versión: 05
+             anchura: 32 bits
+             reloj: 33MHz
+             capacidades: pm debug ehci bus_master cap_list
+             configuración: driver=ehci-pci latency=0
+             recursos: irq:23 memoria:f7e1b000-f7e1b3ff
+        *-isa
+             descripción: ISA bridge
+             producto: HM86 Express LPC Controller
+             fabricante: Intel Corporation
+             id físico: 1f
+             información del bus: pci@0000:00:1f.0
+             versión: 05
+             anchura: 32 bits
+             reloj: 33MHz
+             capacidades: isa bus_master cap_list
+             configuración: driver=lpc_ich latency=0
+             recursos: irq:0
+        *-storage
+             descripción: SATA controller
+             producto: 8 Series/C220 Series Chipset Family 6-port SATA Controller 1 [AHCI mode]
+             fabricante: Intel Corporation
+             id físico: 1f.2
+             información del bus: pci@0000:00:1f.2
+             versión: 05
+             anchura: 32 bits
+             reloj: 66MHz
+             capacidades: storage msi pm ahci_1.0 bus_master cap_list
+             configuración: driver=ahci latency=0
+             recursos: irq:42 ioport:f0b0(size=8) ioport:f0a0(size=4) ioport:f090(size=8) ioport:f080(size=4) ioport:f060(size=32) memoria:f7e1a000-f7e1a7ff
+        *-serial NO RECLAMADO
+             descripción: SMBus
+             producto: 8 Series/C220 Series Chipset Family SMBus Controller
+             fabricante: Intel Corporation
+             id físico: 1f.3
+             información del bus: pci@0000:00:1f.3
+             versión: 05
+             anchura: 64 bits
+             reloj: 33MHz
+             configuración: latency=0
+             recursos: memoria:f7e19000-f7e190ff ioport:f040(size=32)
+     *-scsi:0
+          id físico: 1
+          nombre lógico: scsi0
+          capacidades: emulated
+        *-cdrom
+             descripción: DVD-RAM writer
+             producto: CDDVDW SU-208GB
+             fabricante: TSSTcorp
+             id físico: 0.0.0
+             información del bus: scsi@0:0.0.0
+             nombre lógico: /dev/cdrom
+             nombre lógico: /dev/sr0
+             versión: TC00
+             capacidades: removable audio cd-r cd-rw dvd dvd-r dvd-ram
+             configuración: ansiversion=5 status=nodisc
+     *-scsi:1
+          id físico: 2
+          nombre lógico: scsi5
+          capacidades: emulated
+        *-disk
+             descripción: ATA Disk
+             producto: WDC WD10SPCX-24H
+             fabricante: Western Digital
+             id físico: 0.0.0
+             información del bus: scsi@5:0.0.0
+             nombre lógico: /dev/sda
+             versión: 02.0
+             serie: WD-WXE1A45H6TPD
+             tamaño: 931GiB (1TB)
+             capacidades: gpt-1.00 partitioned partitioned:gpt
+             configuración: ansiversion=5 guid=0060cdbf-d02f-4094-a24a-2db33365cbcb sectorsize=4096
+           *-volume:0 NO RECLAMADO
+                descripción: Windows FAT volumen
+                fabricante: MSDOS5.0
+                id físico: 1
+                información del bus: scsi@5:0.0.0,1
+                versión: FAT32
+                serie: 1078-41d5
+                tamaño: 95MiB
+                capacidad: 99MiB
+                capacidades: boot fat initialized
+                configuración: FATs=2 filesystem=fat name=EFI
+           *-volume:1
+                descripción: reserved partition
+                fabricante: Windows
+                id físico: 2
+                información del bus: scsi@5:0.0.0,2
+                nombre lógico: /dev/sda2
+                serie: 70070c0f-0f1b-4a1a-8ea1-da4d7990dbdd
+                capacidad: 127MiB
+                capacidades: nofs
+                configuración: name=Micr
+           *-volume:2
+                descripción: Windows NTFS volumen
+                fabricante: Windows
+                id físico: 3
+                información del bus: scsi@5:0.0.0,3
+                nombre lógico: /dev/sda3
+                versión: 3.1
+                serie: 00fc2bb7-e3e9-034a-8726-30c833981310
+                tamaño: 869GiB
+                capacidad: 869GiB
+                capacidades: ntfs initialized
+                configuración: clustersize=4096 created=2015-12-27 14:43:20 filesystem=ntfs state=clean
+           *-volume:3
+                descripción: Windows NTFS volumen
+                fabricante: Windows
+                id físico: 4
+                información del bus: scsi@5:0.0.0,4
+                nombre lógico: /dev/sda4
+                versión: 3.1
+                serie: e05a-6f02
+                tamaño: 881MiB
+                capacidad: 891MiB
+                capacidades: boot precious readonly hidden nomount ntfs initialized
+                configuración: clustersize=4096 created=2017-07-27 19:47:41 filesystem=ntfs modified_by_chkdsk=true mounted_on_nt4=true resize_log_file=true state=dirty upgrade_on_mount=true
+           *-volume:4
+                descripción: partición EXT3
+                fabricante: Linux
+                id físico: 5
+                información del bus: scsi@5:0.0.0,5
+                nombre lógico: /dev/sda5
+                nombre lógico: /
+                versión: 1.0
+                serie: da85327d-e0bd-4ca4-8be5-972942ec175c
+                tamaño: 59GiB
+                capacidades: journaled extended_attributes large_files recover ext3 ext2 initialized
+                configuración: created=2016-01-05 21:33:07 filesystem=ext3 lastmountpoint=/ modified=2017-12-22 17:34:57 mount.fstype=ext3 mount.options=rw,relatime,errors=remount-ro,data=ordered mounted=2017-12-22 17:34:59 state=mounted
+           *-volume:5
+                descripción: Windows NTFS volumen
+                id físico: 6
+                información del bus: scsi@5:0.0.0,6
+                nombre lógico: /dev/sda6
+                versión: 3.1
+                serie: b67d-dd5f
+                tamaño: 994MiB
+                capacidad: 999MiB
+                capacidades: precious readonly hidden nomount ntfs initialized
+                configuración: clustersize=4096 created=2015-11-16 23:05:54 filesystem=ntfs label=Recovery modified_by_chkdsk=true mounted_on_nt4=true name=Basi resize_log_file=true state=dirty upgrade_on_mount=true

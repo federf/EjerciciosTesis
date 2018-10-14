@@ -1,0 +1,224 @@
+JAVA PROFILE 1.0.1, created Sun May 20 19:51:01 2018
+
+Copyright (c) 2003, 2005, Oracle and/or its affiliates. All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions
+are met:
+
+  - Redistributions of source code must retain the above copyright
+    notice, this list of conditions and the following disclaimer.
+
+  - Redistributions in binary form must reproduce the above copyright
+    notice, this list of conditions and the following disclaimer in the
+    documentation and/or other materials provided with the distribution.
+
+  - Neither the name of Oracle nor the names of its
+    contributors may be used to endorse or promote products derived
+    from this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS
+IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO,
+THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+PURPOSE ARE DISCLAIMED.  IN NO EVENT SHALL THE COPYRIGHT OWNER OR
+CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR
+PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF
+LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
+NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+
+Header for -agentlib:hprof (or -Xrunhprof) ASCII Output (JDK 5.0 JVMTI based)
+
+WARNING!  This file format is under development, and is subject to
+change without notice.
+
+This file contains the following types of records:
+
+THREAD START
+THREAD END      mark the lifetime of Java threads
+
+TRACE           represents a Java stack trace.  Each trace consists
+                of a series of stack frames.  Other records refer to
+                TRACEs to identify (1) where object allocations have
+                taken place, (2) the frames in which GC roots were
+                found, and (3) frequently executed methods.
+
+HEAP DUMP       is a complete snapshot of all live objects in the Java
+                heap.  Following distinctions are made:
+
+                ROOT    root set as determined by GC
+                CLS     classes 
+                OBJ     instances
+                ARR     arrays
+
+SITES           is a sorted list of allocation sites.  This identifies
+                the most heavily allocated object types, and the TRACE
+                at which those allocations occurred.
+
+CPU SAMPLES     is a statistical profile of program execution.  The VM
+                periodically samples all running threads, and assigns
+                a quantum to active TRACEs in those threads.  Entries
+                in this record are TRACEs ranked by the percentage of
+                total quanta they consumed; top-ranked TRACEs are
+                typically hot spots in the program.
+
+CPU TIME        is a profile of program execution obtained by measuring
+                the time spent in individual methods (excluding the time
+                spent in callees), as well as by counting the number of
+                times each method is called. Entries in this record are
+                TRACEs ranked by the percentage of total CPU time. The
+                "count" field indicates the number of times each TRACE 
+                is invoked.
+
+MONITOR TIME    is a profile of monitor contention obtained by measuring
+                the time spent by a thread waiting to enter a monitor.
+                Entries in this record are TRACEs ranked by the percentage
+                of total monitor contention time and a brief description
+                of the monitor.  The "count" field indicates the number of 
+                times the monitor was contended at that TRACE.
+
+MONITOR DUMP    is a complete snapshot of all the monitors and threads in 
+                the System.
+
+HEAP DUMP, SITES, CPU SAMPLES|TIME and MONITOR DUMP|TIME records are generated 
+at program exit.  They can also be obtained during program execution by typing 
+Ctrl-\ (on Solaris) or by typing Ctrl-Break (on Win32).
+
+--------
+
+THREAD START (obj=50000193, id = 200001, name="main", group="main")
+THREAD START (obj=500001ec, id = 200005, name="Thread-1", group="main")
+THREAD START (obj=500001ec, id = 200007, name="Thread-3", group="main")
+THREAD START (obj=500001ec, id = 200006, name="Thread-2", group="main")
+THREAD START (obj=500001ec, id = 200004, name="Thread-0", group="main")
+THREAD START (obj=50000193, id = 200008, name="process reaper", group="system")
+THREAD START (obj=50000193, id = 200009, name="Attach Listener", group="system")
+THREAD END (id = 200006)
+THREAD END (id = 200007)
+THREAD END (id = 200004)
+THREAD END (id = 200005)
+THREAD END (id = 200001)
+THREAD START (obj=50000193, id = 200010, name="DestroyJavaVM", group="main")
+THREAD END (id = 200010)
+TRACE 300165:
+	ejemploParaleloGiganteRandom.multiply(ejemploParaleloGiganteRandom.java:135)
+	ejemploParaleloGiganteRandom$MultThread.run(ejemploParaleloGiganteRandom.java:61)
+TRACE 300217:
+	java.lang.UNIXProcess.waitForProcessExit(UNIXProcess.java:Unknown line)
+	java.lang.UNIXProcess.lambda$initStreams$3(UNIXProcess.java:289)
+	java.lang.UNIXProcess$$Lambda$7.1989780873.run(<Unknown Source>:Unknown line)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+TRACE 300132:
+	ejemploParaleloGiganteRandom.multiply(ejemploParaleloGiganteRandom.java:136)
+	ejemploParaleloGiganteRandom$MultThread.run(ejemploParaleloGiganteRandom.java:61)
+TRACE 300092:
+	ejemploParaleloGiganteRandom.multiply(ejemploParaleloGiganteRandom.java:138)
+	ejemploParaleloGiganteRandom$MultThread.run(ejemploParaleloGiganteRandom.java:61)
+TRACE 300047:
+	java.lang.Class.getMethod0(Class.java:3017)
+	java.lang.Class.getMethod(Class.java:1784)
+	sun.launcher.LauncherHelper.validateMainClass(LauncherHelper.java:544)
+	sun.launcher.LauncherHelper.checkAndLoadMain(LauncherHelper.java:526)
+TRACE 300074:
+	java.util.LinkedHashMap.keySet(LinkedHashMap.java:533)
+	java.net.InetAddress$Cache.put(InetAddress.java:803)
+	java.net.InetAddress.cacheInitIfNeeded(InetAddress.java:869)
+	java.net.InetAddress.cacheAddresses(InetAddress.java:883)
+TRACE 300081:
+	ejemploParaleloGiganteRandom.main(ejemploParaleloGiganteRandom.java:186)
+TRACE 300082:
+	ejemploParaleloGiganteRandom.main(ejemploParaleloGiganteRandom.java:194)
+TRACE 300083:
+	ejemploParaleloGiganteRandom.main(ejemploParaleloGiganteRandom.java:204)
+TRACE 300084:
+	ejemploParaleloGiganteRandom.main(ejemploParaleloGiganteRandom.java:204)
+TRACE 300090:
+	java.lang.StringCoding$StringDecoder.decode(StringCoding.java:149)
+	java.lang.StringCoding.decode(StringCoding.java:193)
+	java.lang.StringCoding.decode(StringCoding.java:254)
+	java.lang.String.<init>(String.java:546)
+TRACE 300091:
+	ejemploParaleloGiganteRandom.multiply(ejemploParaleloGiganteRandom.java:138)
+	ejemploParaleloGiganteRandom$MultThread.run(ejemploParaleloGiganteRandom.java:61)
+TRACE 300093:
+	ejemploParaleloGiganteRandom.multiply(ejemploParaleloGiganteRandom.java:136)
+	ejemploParaleloGiganteRandom$MultThread.run(ejemploParaleloGiganteRandom.java:61)
+TRACE 300131:
+	java.lang.invoke.LambdaForm.arguments(LambdaForm.java:1687)
+	java.lang.invoke.DirectMethodHandle.makePreparedLambdaForm(DirectMethodHandle.java:231)
+	java.lang.invoke.DirectMethodHandle.preparedLambdaForm(DirectMethodHandle.java:194)
+	java.lang.invoke.DirectMethodHandle.preparedLambdaForm(DirectMethodHandle.java:183)
+TRACE 300149:
+	sun.misc.Unsafe.defineAnonymousClass(Unsafe.java:Unknown line)
+	java.lang.invoke.InvokerBytecodeGenerator.loadAndInitializeInvokerClass(InvokerBytecodeGenerator.java:284)
+	java.lang.invoke.InvokerBytecodeGenerator.loadMethod(InvokerBytecodeGenerator.java:276)
+	java.lang.invoke.InvokerBytecodeGenerator.generateCustomizedCode(InvokerBytecodeGenerator.java:618)
+TRACE 300150:
+	java.lang.invoke.MethodHandles$Lookup.findGetter(MethodHandles.java:1026)
+	java.lang.invoke.BoundMethodHandle$Factory.makeGetter(BoundMethodHandle.java:745)
+	java.lang.invoke.BoundMethodHandle$Factory.makeGetters(BoundMethodHandle.java:754)
+	java.lang.invoke.BoundMethodHandle$SpeciesData.initForBootstrap(BoundMethodHandle.java:362)
+TRACE 300161:
+	sun.invoke.util.VerifyAccess.isTypeVisible(VerifyAccess.java:192)
+	sun.invoke.util.VerifyAccess.isTypeVisible(VerifyAccess.java:259)
+	java.lang.invoke.MemberName.checkForTypeAlias(MemberName.java:792)
+	java.lang.invoke.MemberName$Factory.resolve(MemberName.java:976)
+TRACE 300164:
+	jdk.internal.org.objectweb.asm.ByteVector.putUTF8(ByteVector.java:257)
+	jdk.internal.org.objectweb.asm.ClassWriter.newUTF8(ClassWriter.java:1121)
+	jdk.internal.org.objectweb.asm.ClassWriter.newNameTypeItem(ClassWriter.java:1591)
+	jdk.internal.org.objectweb.asm.ClassWriter.newNameType(ClassWriter.java:1574)
+TRACE 300170:
+	jdk.internal.org.objectweb.asm.MethodWriter.visitVarInsn(MethodWriter.java:821)
+	java.lang.invoke.InvokerBytecodeGenerator.emitStoreInsn(InvokerBytecodeGenerator.java:414)
+	java.lang.invoke.InvokerBytecodeGenerator.emitStoreResult(InvokerBytecodeGenerator.java:1178)
+	java.lang.invoke.InvokerBytecodeGenerator.generateCustomizedCodeBytes(InvokerBytecodeGenerator.java:666)
+TRACE 300180:
+	jdk.internal.org.objectweb.asm.ByteVector.putShort(ByteVector.java:147)
+	jdk.internal.org.objectweb.asm.ClassWriter.put122(ClassWriter.java:1789)
+	jdk.internal.org.objectweb.asm.ClassWriter.newFieldItem(ClassWriter.java:1391)
+	jdk.internal.org.objectweb.asm.MethodWriter.visitFieldInsn(MethodWriter.java:878)
+TRACE 300210:
+	java.lang.Class.getDeclaredFields0(Class.java:Unknown line)
+	java.lang.Class.privateGetDeclaredFields(Class.java:2583)
+	java.lang.Class.getDeclaredField(Class.java:2068)
+	java.util.concurrent.SynchronousQueue$TransferStack.<clinit>(SynchronousQueue.java:518)
+TRACE 300220:
+	java.lang.UNIXProcess.forkAndExec(UNIXProcess.java:Unknown line)
+	java.lang.UNIXProcess.<init>(UNIXProcess.java:247)
+	java.lang.ProcessImpl.start(ProcessImpl.java:134)
+	java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
+TRACE 300221:
+	java.lang.System.nanoTime(System.java:Unknown line)
+	java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:447)
+	java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:362)
+	java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:941)
+CPU SAMPLES BEGIN (total = 634) Sun May 20 19:51:02 2018
+rank   self  accum   count trace method
+   1 88,49% 88,49%     561 300165 ejemploParaleloGiganteRandom.multiply
+   2  5,68% 94,16%      36 300217 java.lang.UNIXProcess.waitForProcessExit
+   3  2,52% 96,69%      16 300132 ejemploParaleloGiganteRandom.multiply
+   4  0,32% 97,00%       2 300092 ejemploParaleloGiganteRandom.multiply
+   5  0,16% 97,16%       1 300047 java.lang.Class.getMethod0
+   6  0,16% 97,32%       1 300074 java.util.LinkedHashMap.keySet
+   7  0,16% 97,48%       1 300081 ejemploParaleloGiganteRandom.main
+   8  0,16% 97,63%       1 300082 ejemploParaleloGiganteRandom.main
+   9  0,16% 97,79%       1 300083 ejemploParaleloGiganteRandom.main
+  10  0,16% 97,95%       1 300084 ejemploParaleloGiganteRandom.main
+  11  0,16% 98,11%       1 300090 java.lang.StringCoding$StringDecoder.decode
+  12  0,16% 98,26%       1 300091 ejemploParaleloGiganteRandom.multiply
+  13  0,16% 98,42%       1 300093 ejemploParaleloGiganteRandom.multiply
+  14  0,16% 98,58%       1 300131 java.lang.invoke.LambdaForm.arguments
+  15  0,16% 98,74%       1 300149 sun.misc.Unsafe.defineAnonymousClass
+  16  0,16% 98,90%       1 300150 java.lang.invoke.MethodHandles$Lookup.findGetter
+  17  0,16% 99,05%       1 300161 sun.invoke.util.VerifyAccess.isTypeVisible
+  18  0,16% 99,21%       1 300164 jdk.internal.org.objectweb.asm.ByteVector.putUTF8
+  19  0,16% 99,37%       1 300170 jdk.internal.org.objectweb.asm.MethodWriter.visitVarInsn
+  20  0,16% 99,53%       1 300180 jdk.internal.org.objectweb.asm.ByteVector.putShort
+  21  0,16% 99,68%       1 300210 java.lang.Class.getDeclaredFields0
+  22  0,16% 99,84%       1 300220 java.lang.UNIXProcess.forkAndExec
+  23  0,16% 100,00%       1 300221 java.lang.System.nanoTime
+CPU SAMPLES END

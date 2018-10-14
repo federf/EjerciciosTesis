@@ -1,0 +1,130 @@
+
+ Performance counter stats for 'java ejemploParaleloGiganteSeno':
+
+      59717,981974 task-clock (msec)         #    3,767 CPUs utilized          
+    99.351.955.362 instructions             
+       399.581.089 cache-references          #    6,691 M/sec                  
+        14.037.653 cache-misses              #    3,513 % of all cache refs    
+
+      15,852836413 seconds time elapsed
+
+real 16.34
+user 59.30
+sys 0.46
+
+ Performance counter stats for 'java ejemploParaleloGiganteSeno':
+
+      58330,079535 task-clock (msec)         #    3,788 CPUs utilized          
+    99.336.436.333 instructions             
+       396.782.228 cache-references          #    6,802 M/sec                  
+        13.558.232 cache-misses              #    3,417 % of all cache refs    
+
+      15,398978066 seconds time elapsed
+
+real 15.41
+user 57.87
+sys 0.49
+
+ Performance counter stats for 'java ejemploParaleloGiganteSeno':
+
+      63642,160016 task-clock (msec)         #    3,708 CPUs utilized          
+    99.793.148.170 instructions             
+       404.644.054 cache-references          #    6,358 M/sec                  
+        14.602.494 cache-misses              #    3,609 % of all cache refs    
+
+      17,162526347 seconds time elapsed
+
+real 17.16
+user 63.04
+sys 0.62
+
+ Performance counter stats for 'java ejemploParaleloGiganteSeno':
+
+      61914,482600 task-clock (msec)         #    3,632 CPUs utilized          
+    99.575.247.734 instructions             
+       399.324.354 cache-references          #    6,450 M/sec                  
+        17.156.756 cache-misses              #    4,296 % of all cache refs    
+
+      17,046729525 seconds time elapsed
+
+real 17.05
+user 61.44
+sys 0.51
+
+ Performance counter stats for 'java ejemploParaleloGiganteSeno':
+
+      58399,359231 task-clock (msec)         #    3,634 CPUs utilized          
+    98.705.677.371 instructions             
+       380.026.799 cache-references          #    6,507 M/sec                  
+        14.996.318 cache-misses              #    3,946 % of all cache refs    
+
+      16,070217233 seconds time elapsed
+
+real 16.07
+user 57.97
+sys 0.47
+
+ Performance counter stats for 'java ejemploParaleloGiganteSeno':
+
+      60694,507150 task-clock (msec)         #    3,557 CPUs utilized          
+    99.196.864.997 instructions             
+       389.431.985 cache-references          #    6,416 M/sec                  
+        16.112.216 cache-misses              #    4,137 % of all cache refs    
+
+      17,065260043 seconds time elapsed
+
+real 17.07
+user 60.17
+sys 0.55
+
+ Performance counter stats for 'java ejemploParaleloGiganteSeno':
+
+      58375,083023 task-clock (msec)         #    3,725 CPUs utilized          
+    99.367.367.299 instructions             
+       402.309.112 cache-references          #    6,892 M/sec                  
+        13.203.893 cache-misses              #    3,282 % of all cache refs    
+
+      15,670192928 seconds time elapsed
+
+real 15.67
+user 57.95
+sys 0.45
+
+ Performance counter stats for 'java ejemploParaleloGiganteSeno':
+
+      59790,776074 task-clock (msec)         #    3,793 CPUs utilized          
+    99.548.048.019 instructions             
+       401.575.162 cache-references          #    6,716 M/sec                  
+        15.701.175 cache-misses              #    3,910 % of all cache refs    
+
+      15,764932788 seconds time elapsed
+
+real 15.77
+user 59.22
+sys 0.60
+
+ Performance counter stats for 'java ejemploParaleloGiganteSeno':
+
+      58636,332036 task-clock (msec)         #    3,784 CPUs utilized          
+    99.438.768.893 instructions             
+       395.363.768 cache-references          #    6,743 M/sec                  
+        13.723.206 cache-misses              #    3,471 % of all cache refs    
+
+      15,493872641 seconds time elapsed
+
+real 15.50
+user 58.14
+sys 0.53
+
+ Performance counter stats for 'java ejemploParaleloGiganteSeno':
+
+      60404,334677 task-clock (msec)         #    3,771 CPUs utilized          
+    99.258.409.241 instructions             
+       400.176.825 cache-references          #    6,625 M/sec                  
+        14.876.796 cache-misses              #    3,718 % of all cache refs    
+
+      16,019211404 seconds time elapsed
+
+real 16.02
+user 60.02
+sys 0.41

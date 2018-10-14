@@ -1,0 +1,7 @@
+Archivos test/
+Profilers/
+01-paralelismo/matrixmultiplication/comandosEstadisticas.txt
+01-paralelismo/matrixmultiplication/guardar resultados de perf 10 veces.txt
+matrixmultiplication/casos generales/paralelo 4 threads taskset/java.hprof
+CharCountMPIyPipes.zip
+EjemploDiego/

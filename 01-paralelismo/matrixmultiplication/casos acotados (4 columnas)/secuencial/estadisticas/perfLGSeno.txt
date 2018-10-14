@@ -1,0 +1,120 @@
+# started on Sat Apr 14 19:48:30 2018
+
+
+ Performance counter stats for 'java ejemploLinealGiganteSeno':
+
+      74048,920215 task-clock (msec)         #    2,350 CPUs utilized          
+   127.160.860.471 instructions             
+       531.433.430 cache-references          #    7,177 M/sec                  
+        19.112.155 cache-misses              #    3,596 % of all cache refs    
+
+      31,510560180 seconds time elapsed
+
+# started on Sat Apr 14 19:49:01 2018
+
+
+ Performance counter stats for 'java ejemploLinealGiganteSeno':
+
+      74111,492929 task-clock (msec)         #    2,357 CPUs utilized          
+   127.186.598.494 instructions             
+       534.044.518 cache-references          #    7,206 M/sec                  
+        17.970.301 cache-misses              #    3,365 % of all cache refs    
+
+      31,446167493 seconds time elapsed
+
+# started on Sat Apr 14 19:49:33 2018
+
+
+ Performance counter stats for 'java ejemploLinealGiganteSeno':
+
+      73550,228185 task-clock (msec)         #    2,346 CPUs utilized          
+   126.717.298.536 instructions             
+       524.228.569 cache-references          #    7,127 M/sec                  
+        17.588.818 cache-misses              #    3,355 % of all cache refs    
+
+      31,350146870 seconds time elapsed
+
+# started on Sat Apr 14 19:50:04 2018
+
+
+ Performance counter stats for 'java ejemploLinealGiganteSeno':
+
+      73618,004796 task-clock (msec)         #    2,351 CPUs utilized          
+   127.277.397.071 instructions             
+       522.557.893 cache-references          #    7,098 M/sec                  
+        17.462.293 cache-misses              #    3,342 % of all cache refs    
+
+      31,313743913 seconds time elapsed
+
+# started on Sat Apr 14 19:50:35 2018
+
+
+ Performance counter stats for 'java ejemploLinealGiganteSeno':
+
+      73734,423184 task-clock (msec)         #    2,346 CPUs utilized          
+   127.235.500.867 instructions             
+       515.148.281 cache-references          #    6,987 M/sec                  
+        17.267.798 cache-misses              #    3,352 % of all cache refs    
+
+      31,432893314 seconds time elapsed
+
+# started on Sat Apr 14 19:51:07 2018
+
+
+ Performance counter stats for 'java ejemploLinealGiganteSeno':
+
+      73921,024372 task-clock (msec)         #    2,313 CPUs utilized          
+   126.409.313.908 instructions             
+       516.012.431 cache-references          #    6,981 M/sec                  
+        18.579.934 cache-misses              #    3,601 % of all cache refs    
+
+      31,952576233 seconds time elapsed
+
+# started on Sat Apr 14 19:51:39 2018
+
+
+ Performance counter stats for 'java ejemploLinealGiganteSeno':
+
+      74722,210900 task-clock (msec)         #    2,294 CPUs utilized          
+   126.936.755.373 instructions             
+       537.600.489 cache-references          #    7,195 M/sec                  
+        19.381.137 cache-misses              #    3,605 % of all cache refs    
+
+      32,568348813 seconds time elapsed
+
+# started on Sat Apr 14 19:52:11 2018
+
+
+ Performance counter stats for 'java ejemploLinealGiganteSeno':
+
+      73474,025027 task-clock (msec)         #    2,319 CPUs utilized          
+   126.766.143.311 instructions             
+       526.590.077 cache-references          #    7,167 M/sec                  
+        18.221.621 cache-misses              #    3,460 % of all cache refs    
+
+      31,677051168 seconds time elapsed
+
+# started on Sat Apr 14 19:52:43 2018
+
+
+ Performance counter stats for 'java ejemploLinealGiganteSeno':
+
+      73866,588618 task-clock (msec)         #    2,314 CPUs utilized          
+   126.937.042.530 instructions             
+       525.805.850 cache-references          #    7,118 M/sec                  
+        19.929.057 cache-misses              #    3,790 % of all cache refs    
+
+      31,915447789 seconds time elapsed
+
+# started on Sat Apr 14 19:53:15 2018
+
+
+ Performance counter stats for 'java ejemploLinealGiganteSeno':
+
+      74154,652276 task-clock (msec)         #    2,312 CPUs utilized          
+   127.029.327.944 instructions             
+       531.060.787 cache-references          #    7,162 M/sec                  
+        19.657.761 cache-misses              #    3,702 % of all cache refs    
+
+      32,068175480 seconds time elapsed
+

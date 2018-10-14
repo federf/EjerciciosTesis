@@ -1,0 +1,130 @@
+
+ Performance counter stats for 'java ejemploParaleloGrandeRandom':
+
+        699,018227 task-clock (msec)         #    1,358 CPUs utilized          
+     1.443.905.159 instructions             
+        23.406.278 cache-references          #   33,485 M/sec                  
+         2.045.285 cache-misses              #    8,738 % of all cache refs    
+
+       0,514603303 seconds time elapsed
+
+real 0.52
+user 0.67
+sys 0.04
+
+ Performance counter stats for 'java ejemploParaleloGrandeRandom':
+
+        676,876009 task-clock (msec)         #    1,345 CPUs utilized          
+     1.403.496.447 instructions             
+        21.872.289 cache-references          #   32,314 M/sec                  
+         2.108.387 cache-misses              #    9,640 % of all cache refs    
+
+       0,503424781 seconds time elapsed
+
+real 0.50
+user 0.63
+sys 0.06
+
+ Performance counter stats for 'java ejemploParaleloGrandeRandom':
+
+        745,476057 task-clock (msec)         #    1,409 CPUs utilized          
+     1.468.690.440 instructions             
+        22.782.407 cache-references          #   30,561 M/sec                  
+         2.146.620 cache-misses              #    9,422 % of all cache refs    
+
+       0,529154329 seconds time elapsed
+
+real 0.53
+user 0.71
+sys 0.05
+
+ Performance counter stats for 'java ejemploParaleloGrandeRandom':
+
+        701,753113 task-clock (msec)         #    1,349 CPUs utilized          
+     1.406.271.709 instructions             
+        23.660.718 cache-references          #   33,717 M/sec                  
+         2.182.434 cache-misses              #    9,224 % of all cache refs    
+
+       0,520316163 seconds time elapsed
+
+real 0.52
+user 0.63
+sys 0.09
+
+ Performance counter stats for 'java ejemploParaleloGrandeRandom':
+
+        648,979364 task-clock (msec)         #    1,329 CPUs utilized          
+     1.475.243.612 instructions             
+        23.434.032 cache-references          #   36,109 M/sec                  
+         2.148.942 cache-misses              #    9,170 % of all cache refs    
+
+       0,488484163 seconds time elapsed
+
+real 0.49
+user 0.57
+sys 0.08
+
+ Performance counter stats for 'java ejemploParaleloGrandeRandom':
+
+        653,617267 task-clock (msec)         #    1,307 CPUs utilized          
+     1.435.547.719 instructions             
+        22.989.765 cache-references          #   35,173 M/sec                  
+         2.177.736 cache-misses              #    9,473 % of all cache refs    
+
+       0,500027563 seconds time elapsed
+
+real 0.50
+user 0.56
+sys 0.11
+
+ Performance counter stats for 'java ejemploParaleloGrandeRandom':
+
+        636,941158 task-clock (msec)         #    0,891 CPUs utilized          
+     1.449.497.825 instructions             
+        21.990.367 cache-references          #   34,525 M/sec                  
+         2.182.715 cache-misses              #    9,926 % of all cache refs    
+
+       0,715101884 seconds time elapsed
+
+real 0.72
+user 0.59
+sys 0.05
+
+ Performance counter stats for 'java ejemploParaleloGrandeRandom':
+
+        604,668375 task-clock (msec)         #    1,321 CPUs utilized          
+     1.440.511.558 instructions             
+        23.135.184 cache-references          #   38,261 M/sec                  
+         2.038.191 cache-misses              #    8,810 % of all cache refs    
+
+       0,457800968 seconds time elapsed
+
+real 0.46
+user 0.57
+sys 0.04
+
+ Performance counter stats for 'java ejemploParaleloGrandeRandom':
+
+        658,898665 task-clock (msec)         #    1,348 CPUs utilized          
+     1.491.083.983 instructions             
+        24.224.381 cache-references          #   36,765 M/sec                  
+         2.228.225 cache-misses              #    9,198 % of all cache refs    
+
+       0,488654216 seconds time elapsed
+
+real 0.49
+user 0.58
+sys 0.08
+
+ Performance counter stats for 'java ejemploParaleloGrandeRandom':
+
+        704,159030 task-clock (msec)         #    1,445 CPUs utilized          
+     1.540.114.575 instructions             
+        23.353.372 cache-references          #   33,165 M/sec                  
+         2.246.904 cache-misses              #    9,621 % of all cache refs    
+
+       0,487201581 seconds time elapsed
+
+real 0.49
+user 0.65
+sys 0.06

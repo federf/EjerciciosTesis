@@ -1,0 +1,130 @@
+
+ Performance counter stats for 'sh -c cat 124mbloremipsum.txt | ./divided_countchar a':
+
+       2325.404630      task-clock (msec)         #    1.690 CPUs utilized          
+     7,520,966,265      instructions                                                
+        15,527,141      cache-references          #    6.677 M/sec                  
+           733,577      cache-misses              #    4.724 % of all cache refs    
+
+       1.376079343 seconds time elapsed
+
+real 1.92
+user 0.99
+sys 1.58
+
+ Performance counter stats for 'sh -c cat 124mbloremipsum.txt | ./divided_countchar a':
+
+       2302.085755      task-clock (msec)         #    1.726 CPUs utilized          
+     7,522,902,430      instructions                                                
+        14,169,307      cache-references          #    6.155 M/sec                  
+           763,222      cache-misses              #    5.386 % of all cache refs    
+
+       1.333945810 seconds time elapsed
+
+real 1.39
+user 1.11
+sys 1.43
+
+ Performance counter stats for 'sh -c cat 124mbloremipsum.txt | ./divided_countchar a':
+
+       2238.955444      task-clock (msec)         #    1.735 CPUs utilized          
+     7,523,885,797      instructions                                                
+        14,438,718      cache-references          #    6.449 M/sec                  
+           744,749      cache-misses              #    5.158 % of all cache refs    
+
+       1.290576154 seconds time elapsed
+
+real 1.33
+user 1.03
+sys 1.44
+
+ Performance counter stats for 'sh -c cat 124mbloremipsum.txt | ./divided_countchar a':
+
+       2447.402736      task-clock (msec)         #    1.690 CPUs utilized          
+     7,521,391,073      instructions                                                
+        14,395,721      cache-references          #    5.882 M/sec                  
+           749,070      cache-misses              #    5.203 % of all cache refs    
+
+       1.448495806 seconds time elapsed
+
+real 1.49
+user 1.22
+sys 1.47
+
+ Performance counter stats for 'sh -c cat 124mbloremipsum.txt | ./divided_countchar a':
+
+       2353.479393      task-clock (msec)         #    1.712 CPUs utilized          
+     7,522,978,353      instructions                                                
+        15,730,032      cache-references          #    6.684 M/sec                  
+           692,568      cache-misses              #    4.403 % of all cache refs    
+
+       1.374391817 seconds time elapsed
+
+real 1.41
+user 1.13
+sys 1.47
+
+ Performance counter stats for 'sh -c cat 124mbloremipsum.txt | ./divided_countchar a':
+
+       2364.775403      task-clock (msec)         #    1.761 CPUs utilized          
+     7,522,876,123      instructions                                                
+        16,485,712      cache-references          #    6.971 M/sec                  
+           770,180      cache-misses              #    4.672 % of all cache refs    
+
+       1.342588109 seconds time elapsed
+
+real 1.38
+user 1.03
+sys 1.57
+
+ Performance counter stats for 'sh -c cat 124mbloremipsum.txt | ./divided_countchar a':
+
+       2266.297606      task-clock (msec)         #    1.785 CPUs utilized          
+     7,522,921,531      instructions                                                
+        16,873,769      cache-references          #    7.446 M/sec                  
+           711,262      cache-misses              #    4.215 % of all cache refs    
+
+       1.269480558 seconds time elapsed
+
+real 1.33
+user 1.03
+sys 1.48
+
+ Performance counter stats for 'sh -c cat 124mbloremipsum.txt | ./divided_countchar a':
+
+       2249.729608      task-clock (msec)         #    1.729 CPUs utilized          
+     7,519,930,668      instructions                                                
+        15,016,136      cache-references          #    6.675 M/sec                  
+           767,185      cache-misses              #    5.109 % of all cache refs    
+
+       1.301261440 seconds time elapsed
+
+real 1.37
+user 1.02
+sys 1.45
+
+ Performance counter stats for 'sh -c cat 124mbloremipsum.txt | ./divided_countchar a':
+
+       2255.482446      task-clock (msec)         #    1.769 CPUs utilized          
+     7,523,044,224      instructions                                                
+        15,353,723      cache-references          #    6.807 M/sec                  
+           717,060      cache-misses              #    4.670 % of all cache refs    
+
+       1.275248205 seconds time elapsed
+
+real 1.31
+user 0.97
+sys 1.52
+
+ Performance counter stats for 'sh -c cat 124mbloremipsum.txt | ./divided_countchar a':
+
+       2283.648375      task-clock (msec)         #    1.809 CPUs utilized          
+     7,523,366,330      instructions                                                
+        15,566,869      cache-references          #    6.817 M/sec                  
+           671,610      cache-misses              #    4.314 % of all cache refs    
+
+       1.262426602 seconds time elapsed
+
+real 1.30
+user 0.98
+sys 1.54

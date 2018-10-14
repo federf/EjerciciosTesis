@@ -1,0 +1,6 @@
+compilar MatricesMPI:
+-> mpiCC MatricesMPI.cpp -o MatricesMPI
+
+correr:
+-> mpirun -np 4 MatricesMPI
+

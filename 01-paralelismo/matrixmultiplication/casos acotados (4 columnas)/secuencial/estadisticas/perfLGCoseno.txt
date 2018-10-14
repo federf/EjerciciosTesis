@@ -1,0 +1,120 @@
+# started on Sat Apr 14 19:54:15 2018
+
+
+ Performance counter stats for 'java ejemploLinealGiganteCoseno':
+
+      70890,129934 task-clock (msec)         #    2,480 CPUs utilized          
+   117.014.618.172 instructions             
+       533.884.228 cache-references          #    7,531 M/sec                  
+        19.154.945 cache-misses              #    3,588 % of all cache refs    
+
+      28,582822294 seconds time elapsed
+
+# started on Sat Apr 14 19:54:44 2018
+
+
+ Performance counter stats for 'java ejemploLinealGiganteCoseno':
+
+      71136,751013 task-clock (msec)         #    2,505 CPUs utilized          
+   119.382.760.970 instructions             
+       526.695.728 cache-references          #    7,404 M/sec                  
+        17.859.858 cache-misses              #    3,391 % of all cache refs    
+
+      28,392459103 seconds time elapsed
+
+# started on Sat Apr 14 19:55:12 2018
+
+
+ Performance counter stats for 'java ejemploLinealGiganteCoseno':
+
+      70845,923662 task-clock (msec)         #    2,497 CPUs utilized          
+   119.253.061.869 instructions             
+       527.613.742 cache-references          #    7,447 M/sec                  
+        17.712.259 cache-misses              #    3,357 % of all cache refs    
+
+      28,369512102 seconds time elapsed
+
+# started on Sat Apr 14 19:55:41 2018
+
+
+ Performance counter stats for 'java ejemploLinealGiganteCoseno':
+
+      70641,656496 task-clock (msec)         #    2,491 CPUs utilized          
+   118.788.984.041 instructions             
+       528.192.091 cache-references          #    7,477 M/sec                  
+        18.428.178 cache-misses              #    3,489 % of all cache refs    
+
+      28,361842068 seconds time elapsed
+
+# started on Sat Apr 14 19:56:09 2018
+
+
+ Performance counter stats for 'java ejemploLinealGiganteCoseno':
+
+      70770,776969 task-clock (msec)         #    2,483 CPUs utilized          
+   118.669.737.888 instructions             
+       514.464.168 cache-references          #    7,269 M/sec                  
+        18.271.022 cache-misses              #    3,551 % of all cache refs    
+
+      28,501394080 seconds time elapsed
+
+# started on Sat Apr 14 19:56:38 2018
+
+
+ Performance counter stats for 'java ejemploLinealGiganteCoseno':
+
+      70677,848842 task-clock (msec)         #    2,499 CPUs utilized          
+   116.889.370.138 instructions             
+       513.899.724 cache-references          #    7,271 M/sec                  
+        17.283.823 cache-misses              #    3,363 % of all cache refs    
+
+      28,279416023 seconds time elapsed
+
+# started on Sat Apr 14 19:57:06 2018
+
+
+ Performance counter stats for 'java ejemploLinealGiganteCoseno':
+
+      70532,260434 task-clock (msec)         #    2,492 CPUs utilized          
+   116.979.820.957 instructions             
+       524.583.358 cache-references          #    7,437 M/sec                  
+        18.135.771 cache-misses              #    3,457 % of all cache refs    
+
+      28,299493631 seconds time elapsed
+
+# started on Sat Apr 14 19:57:34 2018
+
+
+ Performance counter stats for 'java ejemploLinealGiganteCoseno':
+
+      70767,800799 task-clock (msec)         #    2,504 CPUs utilized          
+   116.743.962.946 instructions             
+       527.470.378 cache-references          #    7,454 M/sec                  
+        17.898.402 cache-misses              #    3,393 % of all cache refs    
+
+      28,256763739 seconds time elapsed
+
+# started on Sat Apr 14 19:58:02 2018
+
+
+ Performance counter stats for 'java ejemploLinealGiganteCoseno':
+
+      70175,784126 task-clock (msec)         #    2,490 CPUs utilized          
+   116.547.660.162 instructions             
+       510.043.847 cache-references          #    7,268 M/sec                  
+        17.904.191 cache-misses              #    3,510 % of all cache refs    
+
+      28,178830752 seconds time elapsed
+
+# started on Sat Apr 14 19:58:31 2018
+
+
+ Performance counter stats for 'java ejemploLinealGiganteCoseno':
+
+      70801,960767 task-clock (msec)         #    2,484 CPUs utilized          
+   119.011.174.861 instructions             
+       531.158.740 cache-references          #    7,502 M/sec                  
+        17.778.626 cache-misses              #    3,347 % of all cache refs    
+
+      28,503993834 seconds time elapsed
+

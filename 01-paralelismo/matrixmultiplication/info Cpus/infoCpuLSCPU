@@ -1,0 +1,39 @@
+Arquitectura:          x86_64
+modo(s) de operación de las CPUs:32-bit, 64-bit
+Orden de bytes:        Little Endian
+CPU(s):                8
+On-line CPU(s) list:   0-7
+Hilo(s) de procesamiento por núcleo:2
+Núcleo(s) por «socket»:4
+Socket(s):             1
+Modo(s) NUMA:          1
+ID de fabricante:      GenuineIntel
+Familia de CPU:        6
+Modelo:                60
+Revisión:             3
+CPU MHz:               800.000
+BogoMIPS:              4390.07
+Virtualización:       VT-x
+Caché L1d:            32K
+Caché L1i:            32K
+Caché L2:             256K
+Caché L3:             6144K
+NUMA node0 CPU(s):     0-7
+
+
+al parecer los core i7 cuentan con 
+dos cache de nivel 1 de 32k
+una cache de nivel 2 de 256k
+una cache de nivel 3 de 6144k
+
+el core i7 que tengo tambien tiene 8mb de cache segun sus especificaciones
+
+
+MAS COMANDOS
+
+grep "^core id" /proc/cpuinfo | sort -u | wc -l
+
+getconf _NPROCESSORS_ONLN
+
+
+	

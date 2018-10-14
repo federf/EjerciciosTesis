@@ -1,0 +1,143 @@
+
+ Performance counter stats for 'sh -c cat longFile.txt | ./divided_countchar_v3 a':
+
+        129.577624      task-clock (msec)         #    1.153 CPUs utilized          
+       373,121,476      instructions                                                
+         1,008,402      cache-references          #    7.782 M/sec                  
+            52,968      cache-misses              #    5.253 % of all cache refs    
+
+       0.112410499 seconds time elapsed
+
+real 0.18
+user 0.04
+sys 0.14
+
+ Performance counter stats for 'sh -c cat longFile.txt | ./divided_countchar_v3 a':
+
+        137.690813      task-clock (msec)         #    1.895 CPUs utilized          
+       369,551,841      instructions                                                
+         1,119,454      cache-references          #    8.130 M/sec                  
+            41,281      cache-misses              #    3.688 % of all cache refs    
+
+       0.072660673 seconds time elapsed
+
+real 0.13
+user 0.06
+sys 0.12
+
+ Performance counter stats for 'sh -c cat longFile.txt | ./divided_countchar_v3 a':
+
+        133.022240      task-clock (msec)         #    1.840 CPUs utilized          
+       378,034,302      instructions                                                
+         1,038,300      cache-references          #    7.805 M/sec                  
+            38,691      cache-misses              #    3.726 % of all cache refs    
+
+       0.072289731 seconds time elapsed
+
+real 0.11
+user 0.04
+sys 0.14
+
+ Performance counter stats for 'sh -c cat longFile.txt | ./divided_countchar_v3 a':
+
+        137.137377      task-clock (msec)         #    1.845 CPUs utilized          
+       377,966,213      instructions                                                
+         1,065,036      cache-references          #    7.766 M/sec                  
+            42,101      cache-misses              #    3.953 % of all cache refs    
+
+       0.074332654 seconds time elapsed
+
+real 0.11
+user 0.04
+sys 0.14
+
+ Performance counter stats for 'sh -c cat longFile.txt | ./divided_countchar_v3 a':
+
+        128.670083      task-clock (msec)         #    1.854 CPUs utilized          
+       370,635,013      instructions                                                
+         1,082,266      cache-references          #    8.411 M/sec                  
+            48,403      cache-misses              #    4.472 % of all cache refs    
+
+       0.069413409 seconds time elapsed
+
+real 0.10
+user 0.04
+sys 0.12
+
+ Performance counter stats for 'sh -c cat longFile.txt | ./divided_countchar_v3 a':
+
+        130.541860      task-clock (msec)         #    1.864 CPUs utilized          
+       377,624,462      instructions                                                
+         1,015,144      cache-references          #    7.776 M/sec                  
+            50,440      cache-misses              #    4.969 % of all cache refs    
+
+       0.070032695 seconds time elapsed
+
+real 0.11
+user 0.06
+sys 0.12
+
+ Performance counter stats for 'sh -c cat longFile.txt | ./divided_countchar_v3 a':
+
+        133.506503      task-clock (msec)         #    1.904 CPUs utilized          
+       368,555,653      instructions                                                
+         1,018,620      cache-references          #    7.630 M/sec                  
+            40,464      cache-misses              #    3.972 % of all cache refs    
+
+       0.070122124 seconds time elapsed
+
+real 0.14
+user 0.05
+sys 0.12
+
+ Performance counter stats for 'sh -c cat longFile.txt | ./divided_countchar_v3 a':
+
+        134.568634      task-clock (msec)         #    1.860 CPUs utilized          
+       370,636,888      instructions                                                
+           973,572      cache-references          #    7.235 M/sec                  
+            47,836      cache-misses              #    4.913 % of all cache refs    
+
+       0.072356343 seconds time elapsed
+
+real 0.11
+user 0.06
+sys 0.11
+
+ Performance counter stats for 'sh -c cat longFile.txt | ./divided_countchar_v3 a':
+
+        130.983850      task-clock (msec)         #    1.873 CPUs utilized          
+       370,187,627      instructions                                                
+         1,111,168      cache-references          #    8.483 M/sec                  
+            45,846      cache-misses              #    4.126 % of all cache refs    
+
+       0.069948561 seconds time elapsed
+
+real 0.10
+user 0.06
+sys 0.11
+
+ Performance counter stats for 'sh -c cat longFile.txt | ./divided_countchar_v3 a':
+
+        139.439976      task-clock (msec)         #    1.855 CPUs utilized          
+       370,918,310      instructions                                                
+         1,096,575      cache-references          #    7.864 M/sec                  
+            46,646      cache-misses              #    4.254 % of all cache refs    
+
+       0.075150684 seconds time elapsed
+
+real 0.15
+user 0.08
+sys 0.11
+
+ Performance counter stats for 'sh -c cat longFile.txt | ./divided_countchar_v3 a':
+
+        127.323828      task-clock (msec)         #    1.907 CPUs utilized          
+       368,659,892      instructions                                                
+         1,018,709      cache-references          #    8.001 M/sec                  
+            42,585      cache-misses              #    4.180 % of all cache refs    
+
+       0.066754206 seconds time elapsed
+
+real 0.11
+user 0.06
+sys 0.11

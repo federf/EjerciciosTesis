@@ -1,0 +1,130 @@
+
+ Performance counter stats for 'java ejemploParaleloMedio':
+
+        432,930926 task-clock (msec)         #    0,957 CPUs utilized          
+     1.220.956.399 instructions             
+        19.219.021 cache-references          #   44,393 M/sec                  
+         1.557.516 cache-misses              #    8,104 % of all cache refs    
+
+       0,452326427 seconds time elapsed
+
+real 0.46
+user 0.39
+sys 0.06
+
+ Performance counter stats for 'java ejemploParaleloMedio':
+
+        457,832906 task-clock (msec)         #    1,005 CPUs utilized          
+     1.260.164.595 instructions             
+        19.544.600 cache-references          #   42,689 M/sec                  
+         1.618.337 cache-misses              #    8,280 % of all cache refs    
+
+       0,455683415 seconds time elapsed
+
+real 0.46
+user 0.43
+sys 0.04
+
+ Performance counter stats for 'java ejemploParaleloMedio':
+
+        434,041129 task-clock (msec)         #    0,976 CPUs utilized          
+     1.214.269.840 instructions             
+        19.065.296 cache-references          #   43,925 M/sec                  
+         1.650.749 cache-misses              #    8,658 % of all cache refs    
+
+       0,444906092 seconds time elapsed
+
+real 0.44
+user 0.41
+sys 0.03
+
+ Performance counter stats for 'java ejemploParaleloMedio':
+
+        427,238272 task-clock (msec)         #    0,952 CPUs utilized          
+     1.197.168.490 instructions             
+        19.080.000 cache-references          #   44,659 M/sec                  
+         1.619.270 cache-misses              #    8,487 % of all cache refs    
+
+       0,448604518 seconds time elapsed
+
+real 0.45
+user 0.36
+sys 0.08
+
+ Performance counter stats for 'java ejemploParaleloMedio':
+
+        424,380467 task-clock (msec)         #    0,968 CPUs utilized          
+     1.235.246.781 instructions             
+        19.319.517 cache-references          #   45,524 M/sec                  
+         1.606.159 cache-misses              #    8,314 % of all cache refs    
+
+       0,438376611 seconds time elapsed
+
+real 0.44
+user 0.39
+sys 0.04
+
+ Performance counter stats for 'java ejemploParaleloMedio':
+
+        446,852909 task-clock (msec)         #    0,985 CPUs utilized          
+     1.227.340.287 instructions             
+        19.285.725 cache-references          #   43,159 M/sec                  
+         1.604.237 cache-misses              #    8,318 % of all cache refs    
+
+       0,453853041 seconds time elapsed
+
+real 0.45
+user 0.39
+sys 0.07
+
+ Performance counter stats for 'java ejemploParaleloMedio':
+
+        447,200796 task-clock (msec)         #    0,984 CPUs utilized          
+     1.221.364.202 instructions             
+        19.456.943 cache-references          #   43,508 M/sec                  
+         1.608.430 cache-misses              #    8,267 % of all cache refs    
+
+       0,454670914 seconds time elapsed
+
+real 0.45
+user 0.39
+sys 0.07
+
+ Performance counter stats for 'java ejemploParaleloMedio':
+
+        423,105376 task-clock (msec)         #    0,951 CPUs utilized          
+     1.203.567.496 instructions             
+        19.169.802 cache-references          #   45,307 M/sec                  
+         1.609.027 cache-misses              #    8,394 % of all cache refs    
+
+       0,444722578 seconds time elapsed
+
+real 0.45
+user 0.38
+sys 0.06
+
+ Performance counter stats for 'java ejemploParaleloMedio':
+
+        469,169666 task-clock (msec)         #    1,047 CPUs utilized          
+     1.256.893.827 instructions             
+        18.822.925 cache-references          #   40,120 M/sec                  
+         1.641.663 cache-misses              #    8,722 % of all cache refs    
+
+       0,448050530 seconds time elapsed
+
+real 0.45
+user 0.41
+sys 0.06
+
+ Performance counter stats for 'java ejemploParaleloMedio':
+
+        418,538424 task-clock (msec)         #    0,973 CPUs utilized          
+     1.220.886.532 instructions             
+        19.298.330 cache-references          #   46,109 M/sec                  
+         1.629.495 cache-misses              #    8,444 % of all cache refs    
+
+       0,430241958 seconds time elapsed
+
+real 0.43
+user 0.38
+sys 0.05

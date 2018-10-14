@@ -1,0 +1,130 @@
+
+ Performance counter stats for 'java ejemploParaleloChico':
+
+        470,462373 task-clock (msec)         #    1,028 CPUs utilized          
+     1.237.389.098 instructions             
+        19.678.953 cache-references          #   41,829 M/sec                  
+         1.656.622 cache-misses              #    8,418 % of all cache refs    
+
+       0,457512590 seconds time elapsed
+
+real 0.47
+user 0.44
+sys 0.05
+
+ Performance counter stats for 'java ejemploParaleloChico':
+
+        436,453672 task-clock (msec)         #    0,969 CPUs utilized          
+     1.199.273.140 instructions             
+        19.122.723 cache-references          #   43,814 M/sec                  
+         1.599.209 cache-misses              #    8,363 % of all cache refs    
+
+       0,450414945 seconds time elapsed
+
+real 0.45
+user 0.37
+sys 0.07
+
+ Performance counter stats for 'java ejemploParaleloChico':
+
+        429,199493 task-clock (msec)         #    0,952 CPUs utilized          
+     1.184.605.691 instructions             
+        19.251.351 cache-references          #   44,854 M/sec                  
+         1.658.978 cache-misses              #    8,617 % of all cache refs    
+
+       0,450826293 seconds time elapsed
+
+real 0.45
+user 0.40
+sys 0.04
+
+ Performance counter stats for 'java ejemploParaleloChico':
+
+        424,600511 task-clock (msec)         #    0,952 CPUs utilized          
+     1.191.715.530 instructions             
+        19.051.037 cache-references          #   44,868 M/sec                  
+         1.620.589 cache-misses              #    8,507 % of all cache refs    
+
+       0,446083552 seconds time elapsed
+
+real 0.45
+user 0.38
+sys 0.06
+
+ Performance counter stats for 'java ejemploParaleloChico':
+
+        462,241031 task-clock (msec)         #    1,018 CPUs utilized          
+     1.237.786.482 instructions             
+        18.960.180 cache-references          #   41,018 M/sec                  
+         1.630.836 cache-misses              #    8,601 % of all cache refs    
+
+       0,454276652 seconds time elapsed
+
+real 0.45
+user 0.43
+sys 0.04
+
+ Performance counter stats for 'java ejemploParaleloChico':
+
+        485,489635 task-clock (msec)         #    1,050 CPUs utilized          
+     1.228.657.859 instructions             
+        19.229.728 cache-references          #   39,609 M/sec                  
+         1.636.098 cache-misses              #    8,508 % of all cache refs    
+
+       0,462188469 seconds time elapsed
+
+real 0.47
+user 0.44
+sys 0.07
+
+ Performance counter stats for 'java ejemploParaleloChico':
+
+        451,044674 task-clock (msec)         #    0,992 CPUs utilized          
+     1.197.958.497 instructions             
+        19.187.678 cache-references          #   42,541 M/sec                  
+         1.669.591 cache-misses              #    8,701 % of all cache refs    
+
+       0,454620875 seconds time elapsed
+
+real 0.46
+user 0.41
+sys 0.05
+
+ Performance counter stats for 'java ejemploParaleloChico':
+
+        433,872302 task-clock (msec)         #    0,963 CPUs utilized          
+     1.196.779.073 instructions             
+        19.122.669 cache-references          #   44,074 M/sec                  
+         1.630.819 cache-misses              #    8,528 % of all cache refs    
+
+       0,450753130 seconds time elapsed
+
+real 0.45
+user 0.39
+sys 0.06
+
+ Performance counter stats for 'java ejemploParaleloChico':
+
+        490,661754 task-clock (msec)         #    1,065 CPUs utilized          
+     1.249.600.083 instructions             
+        19.420.092 cache-references          #   39,579 M/sec                  
+         1.553.602 cache-misses              #    8,000 % of all cache refs    
+
+       0,460812070 seconds time elapsed
+
+real 0.46
+user 0.47
+sys 0.03
+
+ Performance counter stats for 'java ejemploParaleloChico':
+
+        440,697060 task-clock (msec)         #    0,985 CPUs utilized          
+     1.203.698.413 instructions             
+        19.370.010 cache-references          #   43,953 M/sec                  
+         1.591.812 cache-misses              #    8,218 % of all cache refs    
+
+       0,447527766 seconds time elapsed
+
+real 0.45
+user 0.41
+sys 0.04

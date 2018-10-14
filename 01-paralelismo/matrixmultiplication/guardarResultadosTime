@@ -1,0 +1,13 @@
+// como guardar los resultados de time en un txt ejemploLinealChico
+//(time java ejemploLinealChico ) 2>>timeLinealChico.txt
+
+PREGUNTAR COMO AGREGAR UN SALTO DE LINEA ENTRE EJECUCIONES
+
+// resultados "compactos"
+(run 10 time -p java ejemploLinealChico) 2>>timeLinealChico.txt
+run 10 time -o timeLinealChico.txt -a -p java ejemploLinealChico
+
+// resultados completos 
+(run 10 time -v java ejemploLinealChico) 2>>timeLinealChico.txt
+
+run 10 time -o timeLinealChico.txt -a -v java ejemploLinealChico

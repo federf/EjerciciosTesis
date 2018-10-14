@@ -1,0 +1,130 @@
+
+ Performance counter stats for 'taskset 1 java ejemploSecuencialMedio':
+
+         73,778884 task-clock (msec)         #    0,947 CPUs utilized          
+       218.466.976 instructions             
+         3.007.761 cache-references          #   40,767 M/sec                  
+           304.732 cache-misses              #   10,132 % of all cache refs    
+
+       0,077949128 seconds time elapsed
+
+real 0.09
+user 0.05
+sys 0.02
+
+ Performance counter stats for 'taskset 1 java ejemploSecuencialMedio':
+
+         75,967296 task-clock (msec)         #    0,949 CPUs utilized          
+       219.055.875 instructions             
+         3.055.368 cache-references          #   40,220 M/sec                  
+           321.718 cache-misses              #   10,530 % of all cache refs    
+
+       0,080013208 seconds time elapsed
+
+real 0.08
+user 0.07
+sys 0.01
+
+ Performance counter stats for 'taskset 1 java ejemploSecuencialMedio':
+
+         75,414564 task-clock (msec)         #    0,948 CPUs utilized          
+       221.070.983 instructions             
+         3.025.446 cache-references          #   40,118 M/sec                  
+           333.382 cache-misses              #   11,019 % of all cache refs    
+
+       0,079517793 seconds time elapsed
+
+real 0.08
+user 0.06
+sys 0.01
+
+ Performance counter stats for 'taskset 1 java ejemploSecuencialMedio':
+
+         74,315452 task-clock (msec)         #    0,948 CPUs utilized          
+       220.275.898 instructions             
+         3.032.038 cache-references          #   40,800 M/sec                  
+           339.414 cache-misses              #   11,194 % of all cache refs    
+
+       0,078375474 seconds time elapsed
+
+real 0.08
+user 0.06
+sys 0.01
+
+ Performance counter stats for 'taskset 1 java ejemploSecuencialMedio':
+
+         74,161761 task-clock (msec)         #    0,948 CPUs utilized          
+       219.167.479 instructions             
+         3.056.519 cache-references          #   41,214 M/sec                  
+           293.264 cache-misses              #    9,595 % of all cache refs    
+
+       0,078238507 seconds time elapsed
+
+real 0.08
+user 0.07
+sys 0.00
+
+ Performance counter stats for 'taskset 1 java ejemploSecuencialMedio':
+
+         73,904411 task-clock (msec)         #    0,945 CPUs utilized          
+       221.184.599 instructions             
+         3.068.557 cache-references          #   41,521 M/sec                  
+           315.565 cache-misses              #   10,284 % of all cache refs    
+
+       0,078203065 seconds time elapsed
+
+real 0.08
+user 0.06
+sys 0.01
+
+ Performance counter stats for 'taskset 1 java ejemploSecuencialMedio':
+
+         74,469274 task-clock (msec)         #    0,950 CPUs utilized          
+       220.471.513 instructions             
+         3.154.405 cache-references          #   42,358 M/sec                  
+           291.118 cache-misses              #    9,229 % of all cache refs    
+
+       0,078384184 seconds time elapsed
+
+real 0.08
+user 0.07
+sys 0.00
+
+ Performance counter stats for 'taskset 1 java ejemploSecuencialMedio':
+
+         73,301113 task-clock (msec)         #    0,948 CPUs utilized          
+       219.400.234 instructions             
+         3.040.279 cache-references          #   41,477 M/sec                  
+           309.352 cache-misses              #   10,175 % of all cache refs    
+
+       0,077345152 seconds time elapsed
+
+real 0.08
+user 0.06
+sys 0.00
+
+ Performance counter stats for 'taskset 1 java ejemploSecuencialMedio':
+
+         72,800754 task-clock (msec)         #    0,949 CPUs utilized          
+       220.156.923 instructions             
+         3.019.988 cache-references          #   41,483 M/sec                  
+           300.557 cache-misses              #    9,952 % of all cache refs    
+
+       0,076745793 seconds time elapsed
+
+real 0.08
+user 0.05
+sys 0.02
+
+ Performance counter stats for 'taskset 1 java ejemploSecuencialMedio':
+
+         73,876883 task-clock (msec)         #    0,948 CPUs utilized          
+       219.304.778 instructions             
+         3.007.747 cache-references          #   40,713 M/sec                  
+           304.759 cache-misses              #   10,132 % of all cache refs    
+
+       0,077915432 seconds time elapsed
+
+real 0.08
+user 0.06
+sys 0.01

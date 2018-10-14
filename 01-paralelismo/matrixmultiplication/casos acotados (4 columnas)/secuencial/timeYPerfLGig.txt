@@ -1,0 +1,130 @@
+
+ Performance counter stats for 'java ejemploLinealGigante':
+
+      46713,926013 task-clock (msec)         #    6,497 CPUs utilized          
+    75.765.721.640 instructions             
+       615.594.417 cache-references          #   13,178 M/sec                  
+        17.570.799 cache-misses              #    2,854 % of all cache refs    
+
+       7,190285377 seconds time elapsed
+
+real 7.52
+user 45.54
+sys 1.20
+
+ Performance counter stats for 'java ejemploLinealGigante':
+
+      47606,230818 task-clock (msec)         #    6,550 CPUs utilized          
+    77.466.279.936 instructions             
+       622.244.617 cache-references          #   13,071 M/sec                  
+        16.059.366 cache-misses              #    2,581 % of all cache refs    
+
+       7,268403764 seconds time elapsed
+
+real 7.27
+user 46.57
+sys 1.05
+
+ Performance counter stats for 'java ejemploLinealGigante':
+
+      46456,228335 task-clock (msec)         #    6,526 CPUs utilized          
+    76.417.304.792 instructions             
+       608.233.723 cache-references          #   13,093 M/sec                  
+        16.226.548 cache-misses              #    2,668 % of all cache refs    
+
+       7,118829735 seconds time elapsed
+
+real 7.12
+user 45.46
+sys 1.00
+
+ Performance counter stats for 'java ejemploLinealGigante':
+
+      46686,142454 task-clock (msec)         #    6,517 CPUs utilized          
+    76.729.217.513 instructions             
+       610.341.838 cache-references          #   13,073 M/sec                  
+        16.343.746 cache-misses              #    2,678 % of all cache refs    
+
+       7,164251868 seconds time elapsed
+
+real 7.16
+user 45.69
+sys 1.01
+
+ Performance counter stats for 'java ejemploLinealGigante':
+
+      46995,205790 task-clock (msec)         #    6,536 CPUs utilized          
+    76.931.789.692 instructions             
+       619.809.097 cache-references          #   13,189 M/sec                  
+        16.158.163 cache-misses              #    2,607 % of all cache refs    
+
+       7,190195552 seconds time elapsed
+
+real 7.19
+user 46.05
+sys 0.96
+
+ Performance counter stats for 'java ejemploLinealGigante':
+
+      46741,685476 task-clock (msec)         #    6,529 CPUs utilized          
+    76.744.708.206 instructions             
+       611.907.796 cache-references          #   13,091 M/sec                  
+        16.413.379 cache-misses              #    2,682 % of all cache refs    
+
+       7,158662814 seconds time elapsed
+
+real 7.16
+user 45.70
+sys 1.05
+
+ Performance counter stats for 'java ejemploLinealGigante':
+
+      46796,992515 task-clock (msec)         #    6,524 CPUs utilized          
+    76.740.992.552 instructions             
+       616.503.968 cache-references          #   13,174 M/sec                  
+        16.541.544 cache-misses              #    2,683 % of all cache refs    
+
+       7,172867042 seconds time elapsed
+
+real 7.17
+user 45.82
+sys 0.99
+
+ Performance counter stats for 'java ejemploLinealGigante':
+
+      46841,265183 task-clock (msec)         #    6,533 CPUs utilized          
+    76.751.870.799 instructions             
+       618.086.934 cache-references          #   13,195 M/sec                  
+        16.361.637 cache-misses              #    2,647 % of all cache refs    
+
+       7,170139326 seconds time elapsed
+
+real 7.17
+user 45.87
+sys 0.98
+
+ Performance counter stats for 'java ejemploLinealGigante':
+
+      46972,113207 task-clock (msec)         #    6,515 CPUs utilized          
+    77.021.366.961 instructions             
+       619.080.082 cache-references          #   13,180 M/sec                  
+        16.853.779 cache-misses              #    2,722 % of all cache refs    
+
+       7,210370909 seconds time elapsed
+
+real 7.21
+user 46.01
+sys 0.98
+
+ Performance counter stats for 'java ejemploLinealGigante':
+
+      42709,375001 task-clock (msec)         #    5,769 CPUs utilized          
+    74.334.925.181 instructions             
+       545.928.496 cache-references          #   12,782 M/sec                  
+        17.413.582 cache-misses              #    3,190 % of all cache refs    
+
+       7,402961481 seconds time elapsed
+
+real 7.40
+user 41.74
+sys 0.97

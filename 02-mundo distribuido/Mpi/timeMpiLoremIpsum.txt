@@ -1,0 +1,130 @@
+
+ Performance counter stats for 'sh -c cat longloremipsum.txt | mpirun -np 2 char_occurrences a':
+
+        688.823710      task-clock (msec)         #    2.198 CPUs utilized          
+     3,189,779,998      instructions                                                
+         6,967,279      cache-references          #   10.115 M/sec                  
+           514,586      cache-misses              #    7.386 % of all cache refs    
+
+       0.313349971 seconds time elapsed
+
+real 0.39
+user 0.53
+sys 0.24
+
+ Performance counter stats for 'sh -c cat longloremipsum.txt | mpirun -np 2 char_occurrences a':
+
+        681.172513      task-clock (msec)         #    2.170 CPUs utilized          
+     3,087,872,636      instructions                                                
+         6,510,832      cache-references          #    9.558 M/sec                  
+           510,771      cache-misses              #    7.845 % of all cache refs    
+
+       0.313969355 seconds time elapsed
+
+real 0.38
+user 0.58
+sys 0.18
+
+ Performance counter stats for 'sh -c cat longloremipsum.txt | mpirun -np 2 char_occurrences a':
+
+        658.672479      task-clock (msec)         #    2.267 CPUs utilized          
+     3,218,333,658      instructions                                                
+         5,919,301      cache-references          #    8.987 M/sec                  
+           489,853      cache-misses              #    8.276 % of all cache refs    
+
+       0.290532656 seconds time elapsed
+
+real 0.33
+user 0.55
+sys 0.18
+
+ Performance counter stats for 'sh -c cat longloremipsum.txt | mpirun -np 2 char_occurrences a':
+
+        651.206393      task-clock (msec)         #    2.149 CPUs utilized          
+     2,998,723,060      instructions                                                
+         6,142,484      cache-references          #    9.432 M/sec                  
+           499,006      cache-misses              #    8.124 % of all cache refs    
+
+       0.302965259 seconds time elapsed
+
+real 0.38
+user 0.52
+sys 0.20
+
+ Performance counter stats for 'sh -c cat longloremipsum.txt | mpirun -np 2 char_occurrences a':
+
+        631.914681      task-clock (msec)         #    2.311 CPUs utilized          
+     2,956,197,637      instructions                                                
+         6,105,588      cache-references          #    9.662 M/sec                  
+           470,477      cache-misses              #    7.706 % of all cache refs    
+
+       0.273405208 seconds time elapsed
+
+real 0.32
+user 0.54
+sys 0.17
+
+ Performance counter stats for 'sh -c cat longloremipsum.txt | mpirun -np 2 char_occurrences a':
+
+        672.201655      task-clock (msec)         #    2.164 CPUs utilized          
+     2,964,090,726      instructions                                                
+         6,167,188      cache-references          #    9.175 M/sec                  
+           513,212      cache-misses              #    8.322 % of all cache refs    
+
+       0.310579283 seconds time elapsed
+
+real 0.38
+user 0.51
+sys 0.23
+
+ Performance counter stats for 'sh -c cat longloremipsum.txt | mpirun -np 2 char_occurrences a':
+
+        646.884188      task-clock (msec)         #    2.325 CPUs utilized          
+     3,029,897,632      instructions                                                
+         6,122,589      cache-references          #    9.465 M/sec                  
+           501,100      cache-misses              #    8.184 % of all cache refs    
+
+       0.278229253 seconds time elapsed
+
+real 0.32
+user 0.49
+sys 0.23
+
+ Performance counter stats for 'sh -c cat longloremipsum.txt | mpirun -np 2 char_occurrences a':
+
+        639.253793      task-clock (msec)         #    2.292 CPUs utilized          
+     2,914,201,421      instructions                                                
+         6,413,887      cache-references          #   10.033 M/sec                  
+           485,437      cache-misses              #    7.569 % of all cache refs    
+
+       0.278918234 seconds time elapsed
+
+real 0.33
+user 0.50
+sys 0.21
+
+ Performance counter stats for 'sh -c cat longloremipsum.txt | mpirun -np 2 char_occurrences a':
+
+        720.405093      task-clock (msec)         #    2.383 CPUs utilized          
+     3,262,915,939      instructions                                                
+         6,927,957      cache-references          #    9.617 M/sec                  
+           499,937      cache-misses              #    7.216 % of all cache refs    
+
+       0.302349516 seconds time elapsed
+
+real 0.34
+user 0.56
+sys 0.25
+
+ Performance counter stats for 'sh -c cat longloremipsum.txt | mpirun -np 2 char_occurrences a':
+
+        652.599331      task-clock (msec)         #    2.290 CPUs utilized          
+     2,992,349,668      instructions                                                
+         6,216,388      cache-references          #    9.526 M/sec                  
+           479,944      cache-misses              #    7.721 % of all cache refs    
+
+       0.284987214 seconds time elapsed
+
+real 0.35
+user 0.53
+sys 0.20

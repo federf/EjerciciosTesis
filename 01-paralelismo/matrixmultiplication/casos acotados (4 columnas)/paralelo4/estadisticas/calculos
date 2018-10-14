@@ -1,0 +1,17 @@
+# calculos perf
+run 10 perf stat -e task-clock,instructions,cache-references,cache-misses -o perfParaleloChico.txt --append java ejemploParaleloChico;
+run 10 perf stat -e task-clock,instructions,cache-references,cache-misses -o perfParaleloMedio.txt --append java ejemploParaleloMedio;
+run 10 perf stat -e task-clock,instructions,cache-references,cache-misses -o perfParaleloGrande.txt --append java ejemploParaleloGrande;
+#run 10 perf stat -e task-clock,instructions,cache-references,cache-misses -o perfParaleloEnorme.txt --append java ejemploParaleloEnorme
+
+# calculos time
+run 10 time -o timeParaleloChico.txt -a -v java ejemploParaleloChico;
+run 10 time -o timeParaleloMedio.txt -a -v java ejemploParaleloMedio;
+run 10 time -o timeParaleloGrande.txt -a -v java ejemploParaleloGrande;
+#run 10 time -o timeParaleloEnorme.txt -a -v java ejemploParaleloEnorme;
+
+# calculos time acotados
+run 10 time -o timeParaleloChico.txt -a -p java ejemploParaleloChico;
+run 10 time -o timeParaleloMedio.txt -a -p java ejemploParaleloMedio;
+run 10 time -o timeParaleloGrande.txt -a -p java ejemploParaleloGrande;
+#run 10 time -o timeParaleloEnorme.txt -a -v java ejemploParaleloEnorme;

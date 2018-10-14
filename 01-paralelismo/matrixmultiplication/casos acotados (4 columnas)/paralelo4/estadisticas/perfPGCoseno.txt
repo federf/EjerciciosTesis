@@ -1,0 +1,120 @@
+# started on Sat Apr 14 18:53:10 2018
+
+
+ Performance counter stats for 'java ejemploParaleloGiganteCoseno':
+
+      50994,132002 task-clock (msec)         #    1,997 CPUs utilized          
+    85.866.992.118 instructions             
+       326.837.537 cache-references          #    6,409 M/sec                  
+        12.216.549 cache-misses              #    3,738 % of all cache refs    
+
+      25,536683770 seconds time elapsed
+
+# started on Sat Apr 14 18:53:36 2018
+
+
+ Performance counter stats for 'java ejemploParaleloGiganteCoseno':
+
+      51042,403209 task-clock (msec)         #    1,983 CPUs utilized          
+    85.656.006.226 instructions             
+       324.237.350 cache-references          #    6,352 M/sec                  
+        11.854.891 cache-misses              #    3,656 % of all cache refs    
+
+      25,741104494 seconds time elapsed
+
+# started on Sat Apr 14 18:54:01 2018
+
+
+ Performance counter stats for 'java ejemploParaleloGiganteCoseno':
+
+      50770,278663 task-clock (msec)         #    1,986 CPUs utilized          
+    85.637.213.081 instructions             
+       324.246.477 cache-references          #    6,387 M/sec                  
+        11.705.120 cache-misses              #    3,610 % of all cache refs    
+
+      25,559871640 seconds time elapsed
+
+# started on Sat Apr 14 18:54:27 2018
+
+
+ Performance counter stats for 'java ejemploParaleloGiganteCoseno':
+
+      50913,211475 task-clock (msec)         #    1,994 CPUs utilized          
+    85.427.221.134 instructions             
+       329.444.043 cache-references          #    6,471 M/sec                  
+        11.988.859 cache-misses              #    3,639 % of all cache refs    
+
+      25,529848780 seconds time elapsed
+
+# started on Sat Apr 14 18:54:52 2018
+
+
+ Performance counter stats for 'java ejemploParaleloGiganteCoseno':
+
+      51509,133843 task-clock (msec)         #    2,005 CPUs utilized          
+    85.873.672.280 instructions             
+       331.985.625 cache-references          #    6,445 M/sec                  
+        12.762.271 cache-misses              #    3,844 % of all cache refs    
+
+      25,691820110 seconds time elapsed
+
+# started on Sat Apr 14 18:55:18 2018
+
+
+ Performance counter stats for 'java ejemploParaleloGiganteCoseno':
+
+      51124,092316 task-clock (msec)         #    1,982 CPUs utilized          
+    85.644.178.722 instructions             
+       329.186.204 cache-references          #    6,439 M/sec                  
+        12.500.802 cache-misses              #    3,797 % of all cache refs    
+
+      25,791311396 seconds time elapsed
+
+# started on Sat Apr 14 18:55:44 2018
+
+
+ Performance counter stats for 'java ejemploParaleloGiganteCoseno':
+
+      50566,876025 task-clock (msec)         #    1,972 CPUs utilized          
+    84.992.233.637 instructions             
+       322.018.569 cache-references          #    6,368 M/sec                  
+        12.322.148 cache-misses              #    3,827 % of all cache refs    
+
+      25,641549437 seconds time elapsed
+
+# started on Sat Apr 14 18:56:10 2018
+
+
+ Performance counter stats for 'java ejemploParaleloGiganteCoseno':
+
+      50705,091112 task-clock (msec)         #    1,977 CPUs utilized          
+    85.435.375.161 instructions             
+       323.187.647 cache-references          #    6,374 M/sec                  
+        12.484.354 cache-misses              #    3,863 % of all cache refs    
+
+      25,649636405 seconds time elapsed
+
+# started on Sat Apr 14 18:56:35 2018
+
+
+ Performance counter stats for 'java ejemploParaleloGiganteCoseno':
+
+      51145,828257 task-clock (msec)         #    1,868 CPUs utilized          
+    83.745.909.321 instructions             
+       323.692.069 cache-references          #    6,329 M/sec                  
+        14.282.655 cache-misses              #    4,412 % of all cache refs    
+
+      27,384594542 seconds time elapsed
+
+# started on Sat Apr 14 18:57:03 2018
+
+
+ Performance counter stats for 'java ejemploParaleloGiganteCoseno':
+
+      52139,737285 task-clock (msec)         #    1,911 CPUs utilized          
+    85.290.145.885 instructions             
+       323.631.352 cache-references          #    6,207 M/sec                  
+        13.766.468 cache-misses              #    4,254 % of all cache refs    
+
+      27,285024586 seconds time elapsed
+

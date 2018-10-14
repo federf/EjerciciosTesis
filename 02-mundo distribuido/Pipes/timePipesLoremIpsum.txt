@@ -1,0 +1,130 @@
+
+ Performance counter stats for 'sh -c cat longloremipsum.txt | ./divided_countchar a':
+
+        603.580571      task-clock (msec)         #    1.733 CPUs utilized          
+     1,882,502,584      instructions                                                
+         4,140,387      cache-references          #    6.860 M/sec                  
+           207,116      cache-misses              #    5.002 % of all cache refs    
+
+       0.348374550 seconds time elapsed
+
+real 0.43
+user 0.30
+sys 0.40
+
+ Performance counter stats for 'sh -c cat longloremipsum.txt | ./divided_countchar a':
+
+        568.097962      task-clock (msec)         #    1.727 CPUs utilized          
+     1,882,665,990      instructions                                                
+         3,779,331      cache-references          #    6.653 M/sec                  
+           209,335      cache-misses              #    5.539 % of all cache refs    
+
+       0.329012763 seconds time elapsed
+
+real 0.36
+user 0.29
+sys 0.36
+
+ Performance counter stats for 'sh -c cat longloremipsum.txt | ./divided_countchar a':
+
+        591.603461      task-clock (msec)         #    1.724 CPUs utilized          
+     1,881,590,005      instructions                                                
+         4,317,805      cache-references          #    7.298 M/sec                  
+           217,775      cache-misses              #    5.044 % of all cache refs    
+
+       0.343126647 seconds time elapsed
+
+real 0.41
+user 0.28
+sys 0.40
+
+ Performance counter stats for 'sh -c cat longloremipsum.txt | ./divided_countchar a':
+
+        580.944294      task-clock (msec)         #    1.783 CPUs utilized          
+     1,882,914,194      instructions                                                
+         4,223,148      cache-references          #    7.269 M/sec                  
+           199,750      cache-misses              #    4.730 % of all cache refs    
+
+       0.325825429 seconds time elapsed
+
+real 0.37
+user 0.31
+sys 0.36
+
+ Performance counter stats for 'sh -c cat longloremipsum.txt | ./divided_countchar a':
+
+        614.763957      task-clock (msec)         #    1.712 CPUs utilized          
+     1,882,716,538      instructions                                                
+         4,259,913      cache-references          #    6.929 M/sec                  
+           199,237      cache-misses              #    4.677 % of all cache refs    
+
+       0.359175818 seconds time elapsed
+
+real 0.43
+user 0.28
+sys 0.43
+
+ Performance counter stats for 'sh -c cat longloremipsum.txt | ./divided_countchar a':
+
+        620.508644      task-clock (msec)         #    1.719 CPUs utilized          
+     1,883,191,838      instructions                                                
+         3,727,688      cache-references          #    6.007 M/sec                  
+           212,689      cache-misses              #    5.706 % of all cache refs    
+
+       0.360947658 seconds time elapsed
+
+real 0.40
+user 0.27
+sys 0.44
+
+ Performance counter stats for 'sh -c cat longloremipsum.txt | ./divided_countchar a':
+
+        572.975914      task-clock (msec)         #    1.766 CPUs utilized          
+     1,883,084,759      instructions                                                
+         4,128,817      cache-references          #    7.206 M/sec                  
+           198,276      cache-misses              #    4.802 % of all cache refs    
+
+       0.324526618 seconds time elapsed
+
+real 0.36
+user 0.23
+sys 0.42
+
+ Performance counter stats for 'sh -c cat longloremipsum.txt | ./divided_countchar a':
+
+        623.027896      task-clock (msec)         #    1.691 CPUs utilized          
+     1,882,967,355      instructions                                                
+         3,552,091      cache-references          #    5.701 M/sec                  
+           205,198      cache-misses              #    5.777 % of all cache refs    
+
+       0.368397114 seconds time elapsed
+
+real 0.43
+user 0.29
+sys 0.42
+
+ Performance counter stats for 'sh -c cat longloremipsum.txt | ./divided_countchar a':
+
+        599.683817      task-clock (msec)         #    1.749 CPUs utilized          
+     1,883,171,091      instructions                                                
+         3,730,778      cache-references          #    6.221 M/sec                  
+           208,264      cache-misses              #    5.582 % of all cache refs    
+
+       0.342887851 seconds time elapsed
+
+real 0.38
+user 0.28
+sys 0.41
+
+ Performance counter stats for 'sh -c cat longloremipsum.txt | ./divided_countchar a':
+
+        594.282014      task-clock (msec)         #    1.789 CPUs utilized          
+     1,883,739,008      instructions                                                
+         4,260,101      cache-references          #    7.168 M/sec                  
+           201,087      cache-misses              #    4.720 % of all cache refs    
+
+       0.332169229 seconds time elapsed
+
+real 0.39
+user 0.27
+sys 0.41

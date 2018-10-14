@@ -1,0 +1,130 @@
+
+ Performance counter stats for 'taskset 1 java ejemploSecuencialGrande':
+
+         82,874787 task-clock (msec)         #    0,955 CPUs utilized          
+       274.345.015 instructions             
+         3.329.945 cache-references          #   40,180 M/sec                  
+           342.722 cache-misses              #   10,292 % of all cache refs    
+
+       0,086784121 seconds time elapsed
+
+real 0.09
+user 0.07
+sys 0.01
+
+ Performance counter stats for 'taskset 1 java ejemploSecuencialGrande':
+
+         83,560842 task-clock (msec)         #    0,954 CPUs utilized          
+       273.189.543 instructions             
+         3.377.625 cache-references          #   40,421 M/sec                  
+           341.867 cache-misses              #   10,122 % of all cache refs    
+
+       0,087573018 seconds time elapsed
+
+real 0.09
+user 0.07
+sys 0.01
+
+ Performance counter stats for 'taskset 1 java ejemploSecuencialGrande':
+
+         86,606777 task-clock (msec)         #    0,955 CPUs utilized          
+       272.846.385 instructions             
+         3.409.256 cache-references          #   39,365 M/sec                  
+           336.344 cache-misses              #    9,866 % of all cache refs    
+
+       0,090716344 seconds time elapsed
+
+real 0.09
+user 0.07
+sys 0.01
+
+ Performance counter stats for 'taskset 1 java ejemploSecuencialGrande':
+
+         84,009364 task-clock (msec)         #    0,953 CPUs utilized          
+       271.975.001 instructions             
+         3.280.024 cache-references          #   39,044 M/sec                  
+           353.872 cache-misses              #   10,789 % of all cache refs    
+
+       0,088116198 seconds time elapsed
+
+real 0.09
+user 0.07
+sys 0.01
+
+ Performance counter stats for 'taskset 1 java ejemploSecuencialGrande':
+
+         85,588618 task-clock (msec)         #    0,954 CPUs utilized          
+       273.871.158 instructions             
+         3.417.932 cache-references          #   39,934 M/sec                  
+           333.413 cache-misses              #    9,755 % of all cache refs    
+
+       0,089717473 seconds time elapsed
+
+real 0.09
+user 0.07
+sys 0.01
+
+ Performance counter stats for 'taskset 1 java ejemploSecuencialGrande':
+
+         86,997817 task-clock (msec)         #    0,954 CPUs utilized          
+       274.272.189 instructions             
+         3.427.798 cache-references          #   39,401 M/sec                  
+           357.922 cache-misses              #   10,442 % of all cache refs    
+
+       0,091174475 seconds time elapsed
+
+real 0.09
+user 0.06
+sys 0.02
+
+ Performance counter stats for 'taskset 1 java ejemploSecuencialGrande':
+
+         85,550894 task-clock (msec)         #    0,954 CPUs utilized          
+       272.414.930 instructions             
+         3.345.012 cache-references          #   39,100 M/sec                  
+           358.503 cache-misses              #   10,718 % of all cache refs    
+
+       0,089687414 seconds time elapsed
+
+real 0.09
+user 0.08
+sys 0.00
+
+ Performance counter stats for 'taskset 1 java ejemploSecuencialGrande':
+
+         84,498023 task-clock (msec)         #    0,954 CPUs utilized          
+       272.981.275 instructions             
+         3.276.782 cache-references          #   38,779 M/sec                  
+           338.801 cache-misses              #   10,339 % of all cache refs    
+
+       0,088589403 seconds time elapsed
+
+real 0.09
+user 0.06
+sys 0.02
+
+ Performance counter stats for 'taskset 1 java ejemploSecuencialGrande':
+
+         88,488052 task-clock (msec)         #    0,955 CPUs utilized          
+       272.706.403 instructions             
+         3.359.514 cache-references          #   37,966 M/sec                  
+           369.041 cache-misses              #   10,985 % of all cache refs    
+
+       0,092680346 seconds time elapsed
+
+real 0.09
+user 0.08
+sys 0.01
+
+ Performance counter stats for 'taskset 1 java ejemploSecuencialGrande':
+
+         84,942149 task-clock (msec)         #    0,955 CPUs utilized          
+       273.158.094 instructions             
+         3.405.838 cache-references          #   40,096 M/sec                  
+           339.365 cache-misses              #    9,964 % of all cache refs    
+
+       0,088906708 seconds time elapsed
+
+real 0.09
+user 0.07
+sys 0.01

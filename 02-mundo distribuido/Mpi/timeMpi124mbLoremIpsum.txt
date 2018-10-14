@@ -1,0 +1,130 @@
+
+ Performance counter stats for 'sh -c cat 124mbloremipsum.txt | mpirun -np 2 char_occurrences a':
+
+       2419.402645      task-clock (msec)         #    1.298 CPUs utilized          
+    11,275,364,224      instructions                                                
+        20,942,976      cache-references          #    8.656 M/sec                  
+         1,451,161      cache-misses              #    6.929 % of all cache refs    
+
+       1.863894231 seconds time elapsed
+
+real 1.93
+user 1.96
+sys 0.65
+
+ Performance counter stats for 'sh -c cat 124mbloremipsum.txt | mpirun -np 2 char_occurrences a':
+
+       2396.704935      task-clock (msec)         #    2.467 CPUs utilized          
+    11,491,516,471      instructions                                                
+        19,287,050      cache-references          #    8.047 M/sec                  
+         1,027,008      cache-misses              #    5.325 % of all cache refs    
+
+       0.971387692 seconds time elapsed
+
+real 1.02
+user 1.90
+sys 0.70
+
+ Performance counter stats for 'sh -c cat 124mbloremipsum.txt | mpirun -np 2 char_occurrences a':
+
+       2400.442481      task-clock (msec)         #    2.480 CPUs utilized          
+    10,555,155,729      instructions                                                
+        20,360,594      cache-references          #    8.482 M/sec                  
+         1,032,331      cache-misses              #    5.070 % of all cache refs    
+
+       0.968026904 seconds time elapsed
+
+real 1.01
+user 1.94
+sys 0.67
+
+ Performance counter stats for 'sh -c cat 124mbloremipsum.txt | mpirun -np 2 char_occurrences a':
+
+       2399.683930      task-clock (msec)         #    2.366 CPUs utilized          
+    12,195,507,148      instructions                                                
+        17,233,078      cache-references          #    7.181 M/sec                  
+           929,455      cache-misses              #    5.393 % of all cache refs    
+
+       1.014177970 seconds time elapsed
+
+real 1.05
+user 1.98
+sys 0.60
+
+ Performance counter stats for 'sh -c cat 124mbloremipsum.txt | mpirun -np 2 char_occurrences a':
+
+       2482.803109      task-clock (msec)         #    2.371 CPUs utilized          
+    11,937,976,712      instructions                                                
+        18,271,719      cache-references          #    7.359 M/sec                  
+           976,783      cache-misses              #    5.346 % of all cache refs    
+
+       1.047185184 seconds time elapsed
+
+real 1.09
+user 2.02
+sys 0.65
+
+ Performance counter stats for 'sh -c cat 124mbloremipsum.txt | mpirun -np 2 char_occurrences a':
+
+       2446.209896      task-clock (msec)         #    2.437 CPUs utilized          
+    11,853,782,518      instructions                                                
+        17,523,834      cache-references          #    7.164 M/sec                  
+         1,023,063      cache-misses              #    5.838 % of all cache refs    
+
+       1.003691186 seconds time elapsed
+
+real 1.04
+user 1.98
+sys 0.68
+
+ Performance counter stats for 'sh -c cat 124mbloremipsum.txt | mpirun -np 2 char_occurrences a':
+
+       2282.990723      task-clock (msec)         #    2.392 CPUs utilized          
+    11,029,186,656      instructions                                                
+        18,085,856      cache-references          #    7.922 M/sec                  
+           945,686      cache-misses              #    5.229 % of all cache refs    
+
+       0.954314499 seconds time elapsed
+
+real 0.99
+user 1.84
+sys 0.62
+
+ Performance counter stats for 'sh -c cat 124mbloremipsum.txt | mpirun -np 2 char_occurrences a':
+
+       2456.532335      task-clock (msec)         #    2.434 CPUs utilized          
+    12,019,093,149      instructions                                                
+        18,806,710      cache-references          #    7.656 M/sec                  
+         1,038,066      cache-misses              #    5.520 % of all cache refs    
+
+       1.009162025 seconds time elapsed
+
+real 1.05
+user 1.99
+sys 0.66
+
+ Performance counter stats for 'sh -c cat 124mbloremipsum.txt | mpirun -np 2 char_occurrences a':
+
+       2404.706962      task-clock (msec)         #    2.391 CPUs utilized          
+    11,854,071,783      instructions                                                
+        18,562,982      cache-references          #    7.719 M/sec                  
+           962,705      cache-misses              #    5.186 % of all cache refs    
+
+       1.005726922 seconds time elapsed
+
+real 1.04
+user 1.93
+sys 0.66
+
+ Performance counter stats for 'sh -c cat 124mbloremipsum.txt | mpirun -np 2 char_occurrences a':
+
+       2454.643062      task-clock (msec)         #    2.419 CPUs utilized          
+    11,603,605,040      instructions                                                
+        19,496,292      cache-references          #    7.943 M/sec                  
+           935,644      cache-misses              #    4.799 % of all cache refs    
+
+       1.014536490 seconds time elapsed
+
+real 1.05
+user 1.96
+sys 0.69
