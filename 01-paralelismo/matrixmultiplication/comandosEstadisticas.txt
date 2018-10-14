@@ -1,0 +1,1 @@
+(run 10 time -p perf stat -e task-clock,instructions,cache-references,cache-misses taskset 1 java ejemploLinealGiganteSeno) 2>> timeYPerfGigSenoTaskset.txt

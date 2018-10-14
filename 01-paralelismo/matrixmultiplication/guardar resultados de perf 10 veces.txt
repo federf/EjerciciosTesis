@@ -1,0 +1,4 @@
+# guardar resultados de perf 10 veces
+run 10 perf stat -e task-clock,instructions,cache-references,cache-misses  -o perfLinealChico --append java ejemploLinealChico
+
+run 10 perf stat -e task-clock,instructions,cache-references,cache-misses -o perfParaleloChico.txt --append java ejemploParaleloChico

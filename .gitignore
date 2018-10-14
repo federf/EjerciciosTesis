@@ -5,3 +5,20 @@ Profilers/
 matrixmultiplication/casos generales/paralelo 4 threads taskset/java.hprof
 CharCountMPIyPipes.zip
 EjemploDiego/
+# Ignore all
+*
+
+# Unignore all with extensions
+!*.*
+
+# Unignore all dirs
+!*/
+*.json
+*.zip
+*.class
+02-mundo distribuido/EjemploDiego/EjerPipes
+02-mundo distribuido/EjemploDiego/EjerPipes.zip
+Archivos test/124mbloremipsum.txt
+Archivos test/longFile.txt
+Archivos test/longloremipsum.txt
+Archivos test/shortFile.txt
